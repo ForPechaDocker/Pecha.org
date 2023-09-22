@@ -529,8 +529,11 @@ define({
   "Sites that are listed here use the": "Sites that are listed here use the",
   "Sefaria Linker": "Sefaria Linker",
 
-  
-  "Select Type": "Select Type",
+  // _i18nInterfaceStringsWithContext: {
+  //"AddConnectionBox": {
+  "Select Type": "Select Type"
+});
+/*
   "None": "None",
   "Commentary": "Commentary",
   "Quotation": "Quotation",
@@ -538,9 +541,7 @@ define({
   "Ein Mishpat / Ner Mitsvah": "Ein Mishpat / Ner Mitsvah",
   'Mesorat HaShas': 'Mesorat HaShas',
   "Reference": "Reference",
-  "Related Passage": "Related Passage"
-});
-/*
+  "Related Passage": "Related Passage",
 
 
   //},
