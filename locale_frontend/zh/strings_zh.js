@@ -527,10 +527,10 @@ define({
   'Citing': '',
   'Sites that are listed here use the': '',
   'Sefaria Linker': '',
-},
 
-_i18nInterfaceStringsWithContext: {
-  "AddConnectionBox": {
+
+// _i18nInterfaceStringsWithContext: {
+  //"AddConnectionBox": {
     "Select Type": "",
     "None": "",
     "Commentary": "",
@@ -540,68 +540,68 @@ _i18nInterfaceStringsWithContext: {
     'Mesorat HaShas': '',
     "Reference": "",
     "Related Passage": "",
-  },
-  "SheetAuthorStatement": {
+  //},
+  //"SheetAuthorStatement": {
     "by ": "", // by line on sheets in reader, intentionally left blank
-  },
-  "AboutParashah": {
+  //},
+ // "AboutParashah": {
     "Torah Reading": "",
-  },
-  "ConnectionPanelSection":{
+ // },
+  //"ConnectionPanelSection":{
     "Related Texts": "",
     "Resources": "",
     "Tools": "",
     "Share Link": "",
     "More Options": "",
-  },
-  "FollowButton": {
+  //},
+  //"FollowButton": {
     "Follow": "",
     "Unfollow": "",
     "Following": "",
     "Follow Back": "",
-  },
-  "DownloadVersions":{
+ // },
+ // "DownloadVersions":{
     "Select Format": "",
     "Text (with Tags)": "",
     "Text (without Tags)": "",
     "Select Version": "",
-    "Merged Version": ""
-  },
-  "FilterableList": {
+    "Merged Version": "",
+ // },
+ // "FilterableList": {
     "Alphabetical": "",
     "Recent": "",
     "Views": "",
     /*"Relevance": '', //these 3 are duplicates but it doesnt seem to work without them, why?
     "Chronological": '',
     "Newest": "",*/
-  },
-  "Header": {
+ // },
+  //"Header": {
     "Texts": "",
-  },
-  "RecentlyPublished": {
+  //},
+  //"RecentlyPublished": {
     "Load More": "",
-  },
-  "ResourcesModule": {
+ // },
+  //"ResourcesModule": {
     "Resources": "",
-  },
-  "SearchFilters": {
+  //},
+  //"SearchFilters": {
     "Texts": "",
     "Topics": "",
     "Collections": "",
     "See More": "",
-  },
-  "CalendarListing": {
+  //},
+  //"CalendarListing": {
     "Tanakh": "",
-    "Talmud": ""
-  },
-  "Sheet Share": {
+    "Talmud": "",
+  //},
+  //"Sheet Share": {
     "View": "",
     "Add": "",
     "Edit": "",
-  },
-  "WebPageList": {
+  //},
+  //"WebPageList": {
     'Author': ''
-  }
+  //}
 });
 
 
