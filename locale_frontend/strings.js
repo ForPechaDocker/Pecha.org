@@ -530,8 +530,6 @@ define({
   "Sefaria Linker": "Sefaria Linker",
 
   
-  // _i18nInterfaceStringsWithContext: {
-  //"AddConnectionBox": {
   "Select Type": "Select Type",
   "None": "None",
   "Commentary": "Commentary",
@@ -543,6 +541,7 @@ define({
   "Related Passage": "Related Passage"
 });
 /*
+
 
   //},
   //"SheetAuthorStatement": {
