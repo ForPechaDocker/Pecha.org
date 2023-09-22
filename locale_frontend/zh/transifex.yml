@@ -1,8 +1,8 @@
 git:
   filters:
     - filter_type: dir
-      file_format: YAML_GENERIC
-      source_file_extension: .yml
+      file_format: REQUIREJS
+      source_file_extension: .js
       source_language: en
       source_file_dir: locale_frontend/zh
       translation_files_expression: 'locale_frontend/zh/<lang>'
