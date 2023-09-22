@@ -519,17 +519,17 @@ define({
   //Mobile Nav Header
   "Get Help": "Get Help",
   "About Sefaria": "About Sefaria",
-  "Saved & History": "Saved & History"
-});
-
-/*  
+  "Saved & History": "Saved & History",
+ 
   //Misc
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu felis, molestie sed mauris a, hendrerit vestibulum augue." : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu felis, molestie sed mauris a, hendrerit vestibulum augue.",
   
   //WebPage
   "Citing": "Citing",
   "Sites that are listed here use the": "Sites that are listed here use the",
-  "Sefaria Linker": "Sefaria Linker",
+  "Sefaria Linker": "Sefaria Linker"
+});
+/*
   
   // _i18nInterfaceStringsWithContext: {
   //"AddConnectionBox": {
