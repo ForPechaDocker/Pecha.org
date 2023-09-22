@@ -1,8 +1,8 @@
 git:
   filters:
     - filter_type: dir
-      file_format: KEYVALUEJSON
-      source_file_extension: .json
+      file_format: YAML_GENERIC
+      source_file_extension: .yml
       source_language: en
       source_file_dir: locale_frontend/zh
       translation_files_expression: 'locale_frontend/zh/<lang>'
