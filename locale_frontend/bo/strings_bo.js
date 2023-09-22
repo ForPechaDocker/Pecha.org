@@ -1,5 +1,4 @@
-const Strings = {
-  _i18nInterfaceStrings: {
+_i18nInterfaceStrings({
       "Sefaria": "",
       "Topics":"",
       "Community": "",
@@ -603,11 +602,8 @@ const Strings = {
       "WebPageList": {
         'Author': ''
       }
-    },
-  };
+    });
   
-  
-  export default Strings;
   
   
 
