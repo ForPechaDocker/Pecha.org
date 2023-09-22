@@ -527,9 +527,8 @@ define({
   //WebPage
   "Citing": "Citing",
   "Sites that are listed here use the": "Sites that are listed here use the",
-  "Sefaria Linker": "Sefaria Linker"
-});
-/*
+  "Sefaria Linker": "Sefaria Linker",
+
   
   // _i18nInterfaceStringsWithContext: {
   //"AddConnectionBox": {
@@ -541,7 +540,9 @@ define({
   "Ein Mishpat / Ner Mitsvah": "Ein Mishpat / Ner Mitsvah",
   'Mesorat HaShas': 'Mesorat HaShas',
   "Reference": "Reference",
-  "Related Passage": "Related Passage",
+  "Related Passage": "Related Passage"
+});
+/*
 
   //},
   //"SheetAuthorStatement": {
