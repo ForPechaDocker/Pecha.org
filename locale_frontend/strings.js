@@ -537,11 +537,10 @@ define({
   "Quotation": "Quotation",
   "Midrash": "Midrash",
   "Ein Mishpat / Ner Mitsvah": "Ein Mishpat / Ner Mitsvah",
-  'Mesorat HaShas': 'Mesorat HaShas',
+  "Mesorat HaShas": "Mesorat HaShas",
   "Reference": "Reference",
-  "Related Passage": "Related Passage"
-});
-/*
+  "Related Passage": "Related Passage",
+
   //},
   //"SheetAuthorStatement": {
   "by ": "by ", // by line on sheets in reader, intentionally left blank
@@ -604,4 +603,3 @@ define({
   //"WebPageList": {
   "Author": "Author"     
 });
-*/
