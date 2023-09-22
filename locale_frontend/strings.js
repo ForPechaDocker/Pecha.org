@@ -201,9 +201,9 @@ define({
   "Close" : "Close",
   "Reset": "Reset",
   "Views": "Views",
-  "Saves": "Saves"
-});
-/*
+  "Saves": "Saves",
+
+
   // Publish flow:
   "Not Published" : "Not Published",
   "Publish Settings": "Publish Settings",
@@ -276,8 +276,9 @@ define({
   "Collections of sheets are created by Sefaria users and can be privately, shared with friends, or made public on Sefaria.": "Collections of sheets are created by Sefaria users and can be privately shared with friends or made public on Sefaria.",
   "Sefaria Collections": "Sefaria Collections",
   "Create a Collection": "Create a Collection",
-  "Create a New Collection": "Create a New Collection",
-
+  "Create a New Collection": "Create a New Collection"
+});
+/*
   // Collection Page
   "Owner": "Owner",
   "Editor": "Editor",
