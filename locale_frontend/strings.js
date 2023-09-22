@@ -444,10 +444,8 @@ define({
   "Category": "Category",
   "Alternate Hebrew Titles": "Alternate Hebrew Titles",
   "Alternate English Titles": "Alternate English Titles",
-  "Optional": "Optional"
-});
-
-/*  
+  "Optional": "Optional",
+ 
   //user stats
   "Torah Tracker" : "Torah Tracker",
   "Previous Year": "Previous Year",
@@ -560,8 +558,12 @@ define({
   "Follow": "Follow",
   "Unfollow": "Unfollow",
   "Following": "Following",
-  "Follow Back": "Follow Back",
+  "Follow Back": "Follow Back"
   // },
+
+});
+
+/*
   // "DownloadVersions":{
   "Select Format": "Select Format",
   "Text (with Tags)": "Text (with Tags)",
