@@ -3,7 +3,7 @@ define({
   "Topics":"Topics",
   "Community": "Community",
   "Donate": "Donate",
-  "Sefaria Notifications": "Sefaria Notifications",
+  "Sefaria Notifications": "Sefaria Notifications"
 });
 
 
