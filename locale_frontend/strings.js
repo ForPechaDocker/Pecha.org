@@ -519,8 +519,10 @@ define({
   //Mobile Nav Header
   "Get Help": "Get Help",
   "About Sefaria": "About Sefaria",
-  "Saved & History": "Saved & History",
-  
+  "Saved & History": "Saved & History"
+});
+
+/*  
   //Misc
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu felis, molestie sed mauris a, hendrerit vestibulum augue." : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu felis, molestie sed mauris a, hendrerit vestibulum augue.",
   
@@ -558,12 +560,9 @@ define({
   "Follow": "Follow",
   "Unfollow": "Unfollow",
   "Following": "Following",
-  "Follow Back": "Follow Back"
+  "Follow Back": "Follow Back",
   // },
 
-});
-
-/*
   // "DownloadVersions":{
   "Select Format": "Select Format",
   "Text (with Tags)": "Text (with Tags)",
