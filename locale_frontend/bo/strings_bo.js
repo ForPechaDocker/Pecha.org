@@ -1,4 +1,4 @@
-_i18nInterfaceStrings({
+define({
       "Sefaria": "",
       "Topics":"",
       "Community": "",
