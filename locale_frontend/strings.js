@@ -524,53 +524,53 @@ define({
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu felis, molestie sed mauris a, hendrerit vestibulum augue." : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu felis, molestie sed mauris a, hendrerit vestibulum augue.",
   
   //WebPage
-  'Citing': 'Citing',
-  'Sites that are listed here use the': 'Sites that are listed here use the',
-  'Sefaria Linker': 'Sefaria Linker',
+  "Citing": "Citing",
+  "Sites that are listed here use the": "Sites that are listed here use the",
+  "Sefaria Linker": "Sefaria Linker",
   
   // _i18nInterfaceStringsWithContext: {
   //"AddConnectionBox": {
-    "Select Type": "Select Type",
-    "None": "None",
-    "Commentary": "Commentary",
-    "Quotation": "Quotation",
-    "Midrash": "Midrash",
-    "Ein Mishpat / Ner Mitsvah": "Ein Mishpat / Ner Mitsvah",
-    'Mesorat HaShas': 'Mesorat HaShas',
-    "Reference": "Reference",
-    "Related Passage": "Related Passage",
+  "Select Type": "Select Type",
+  "None": "None",
+  "Commentary": "Commentary",
+  "Quotation": "Quotation",
+  "Midrash": "Midrash",
+  "Ein Mishpat / Ner Mitsvah": "Ein Mishpat / Ner Mitsvah",
+  'Mesorat HaShas': 'Mesorat HaShas',
+  "Reference": "Reference",
+  "Related Passage": "Related Passage",
   //},
   //"SheetAuthorStatement": {
-    "by ": "by ", // by line on sheets in reader, intentionally left blank
+  "by ": "by ", // by line on sheets in reader, intentionally left blank
   //},
   // "AboutParashah": {
-    "Torah Reading": "Torah Reading",
+  "Torah Reading": "Torah Reading",
   // },
   //"ConnectionPanelSection":{
-    "Related Texts": "Related Texts",
-    "Resources": "Resources",
-    "Tools": "Tools",
-    "Share Link": "Share Link",
-    "More Options": "More Options",
+  "Related Texts": "Related Texts",
+  "Resources": "Resources",
+  "Tools": "Tools",
+  "Share Link": "Share Link",
+  "More Options": "More Options",
   //},
   //"FollowButton": {
-    "Follow": "Follow",
-    "Unfollow": "Unfollow",
-    "Following": "Following",
-    "Follow Back": "Follow Back",
+  "Follow": "Follow",
+  "Unfollow": "Unfollow",
+  "Following": "Following",
+  "Follow Back": "Follow Back",
   // },
   // "DownloadVersions":{
-    "Select Format": "Select Format",
-    "Text (with Tags)": "Text (with Tags)",
-    "Text (without Tags)": "Text (without Tags)",
-    "Select Version": "Select Version",
-    "Merged Version": "Merged Version",
+  "Select Format": "Select Format",
+  "Text (with Tags)": "Text (with Tags)",
+  "Text (without Tags)": "Text (without Tags)",
+  "Select Version": "Select Version",
+  "Merged Version": "Merged Version",
   // },
   // "FilterableList": {
-    "Alphabetical": "Alphabetical",
-    "Recent": "Recent",
-    "Views": "Views",
-    "Relevance": "Relevance",
+  "Alphabetical": "Alphabetical",
+  "Recent": "Recent",
+  "Views": "Views",
+  "Relevance": "Relevance",
   "Chronological": "Chronological",
   "Newest": "Newest",
   //"Header": {
@@ -598,5 +598,5 @@ define({
   "Edit": "Edit",
   //},
   //"WebPageList": {
-  'Author': 'Author'     
+  "Author": "Author"     
 });
