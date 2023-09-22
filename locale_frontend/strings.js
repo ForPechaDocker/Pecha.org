@@ -531,13 +531,13 @@ define({
 
   // _i18nInterfaceStringsWithContext: {
   //"AddConnectionBox": {
-  "Select Type": "Select Type"
-});
-/*
+  "Select Type": "Select Type",
   "None": "None",
   "Commentary": "Commentary",
   "Quotation": "Quotation",
-  "Midrash": "Midrash",
+  "Midrash": "Midrash"
+});
+/*
   "Ein Mishpat / Ner Mitsvah": "Ein Mishpat / Ner Mitsvah",
   'Mesorat HaShas': 'Mesorat HaShas',
   "Reference": "Reference",
