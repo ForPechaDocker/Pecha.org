@@ -47,9 +47,9 @@ define({
   "All Learning Schedules": "All Learning Schedules",
   "Sponsor A Day of Learning": "Sponsor A Day of Learning",
   "With your help, we can add more texts and translations to the library, develop new tools for learning, and keep Sefaria accessible for Torah study anytime, anywhere.": "With your help, we can add more texts and translations to the library, develop new tools for learning, and keep Sefaria accessible for Torah study anytime, anywhere.",
-  "Sponsor A Day": "Sponsor A Day"
-});
-/*
+  "Sponsor A Day": "Sponsor A Day",
+
+
   // Text Category Pages
   "All Portions": "All Portions",
   "Popular Texts": "Popular Texts",
@@ -201,8 +201,9 @@ define({
   "Close" : "Close",
   "Reset": "Reset",
   "Views": "Views",
-  "Saves": "Saves",
-
+  "Saves": "Saves"
+});
+/*
   // Publish flow:
   "Not Published" : "Not Published",
   "Publish Settings": "Publish Settings",
