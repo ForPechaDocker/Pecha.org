@@ -41,9 +41,12 @@ const HebrewText = ({ children }) => (
 const EnglishText = ({ children }) => (
   <>{children}</>
 );
+const TibetanText = ({ children }) => (
+  <>{children}</>
+);
 
 const AvailableLanguages = () => {
-  return { "english": EnglishText, "hebrew": HebrewText };
+  return { "english": EnglishText, "hebrew": HebrewText, "tibetan": TibetanText };
 };
 const AvailableLanguagesValidator = (children, key, componentName, location, propFullName) => {
   if (!(children[key].type && (Object.values(AvailableLanguages()).indexOf(children[key].type) != -1))) {
@@ -72,7 +75,9 @@ const InterfaceText = ({ text, html, markdown, children, context }) => {
   const contentVariable = html ?
     html : markdown ? markdown : text;  // assumption is `markdown` or `html` are preferred over `text` if they are present
   const isHebrew = Sefaria.interfaceLang === "hebrew";
-  let elemclasses = classNames({ "int-en": !isHebrew, "int-he": isHebrew });
+  const isTibetan = Sefaria.interfaceLang === "tibetan";
+  console.log(Sefaria.interfaceLang)
+  let elemclasses = classNames({ "int-en": !isHebrew, "int-he": isHebrew, "int-bo": isTibetan });
   let textResponse = null;
   if (contentVariable) {// Prioritize explicit props passed in for text of the element, does not attempt to use Sefaria._() for this case.
     let { he, en } = contentVariable;
@@ -1413,7 +1418,8 @@ function InterfaceLanguageMenu({ currentLang, translationLanguagePreference, set
           <InterfaceText>Site Language</InterfaceText>
         </div>
         <div className="interfaceLinks-options">
-          <a className={`interfaceLinks-option int-bi int-he ${(currentLang == 'hebrew') ? 'active' : ''}`} href={`/interface/hebrew?next=${getCurrentPage()}`}>བོད་ཡིག</a>
+          <a className={`interfaceLinks-option int-bi int-bo ${(currentLang == 'tibetan') ? 'active' : ''}`} href={`/interface/tibetan?language=bo&next=${getCurrentPage()}`}>བོད་སྐད</a>
+          <a className={`interfaceLinks-option int-bi int-he ${(currentLang == 'hebrew') ? 'active' : ''}`} href={`/interface/hebrew?next=${getCurrentPage()}`}>עברית</a>
           <a className={`interfaceLinks-option int-bi int-en ${(currentLang == 'english') ? 'active' : ''}`} href={`/interface/english?next=${getCurrentPage()}`}>English</a>
         </div>
         {!!translationLanguagePreference ? (
@@ -3042,6 +3048,7 @@ export {
   ContentText,
   EnglishText,
   HebrewText,
+  TibetanText,
   CommunityPagePreviewControls,
   LanguageToggleButton,
   Link,

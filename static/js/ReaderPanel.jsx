@@ -38,7 +38,7 @@ import {
   SaveButton,
   CategoryColorLine,
   CategoryAttribution,
-  ToggleSet, ContentText, InterfaceText, EnglishText, HebrewText, SignUpModal,
+  ToggleSet, ContentText, InterfaceText, EnglishText, HebrewText, TibetanText, SignUpModal,
 } from './Misc';
 
 
@@ -1465,6 +1465,7 @@ const TranslationLanguagePreferenceSuggestionBanner = ({ setTranslationLanguageP
               <InterfaceText>
                   <EnglishText> Thanks! We'll show you {lang} translations first when we have them. </EnglishText>
                   <HebrewText>תודה! כשנוכל, נציג לכם תרגומים בשפה ה<span className="bold">{Sefaria._(lang)}</span> כאשר אלו יהיו זמינים. </HebrewText>
+                  <TibetanText>བོད་ཡིག་ཚོད་བལྟ་</TibetanText>
               </InterfaceText>
             </div>
           ) : (
@@ -1472,6 +1473,7 @@ const TranslationLanguagePreferenceSuggestionBanner = ({ setTranslationLanguageP
             <InterfaceText>
                 <EnglishText> Prefer to see <span className="bold"> {lang} </span> translations when available? </EnglishText>
                 <HebrewText>האם תעדיפו לראות תרגומים בשפה ה<span className="bold">{Sefaria._(lang)}</span> כאשר הם זמינים?</HebrewText>
+                <TibetanText>བོད་ཡིག་ཚོད་བལྟ་</TibetanText>
             </InterfaceText>
             <div className="yesNoGroup">
               <a className="yesNoButton" onClick={accept}>

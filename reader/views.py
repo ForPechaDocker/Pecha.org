@@ -1309,20 +1309,22 @@ def interface_language_redirect(request, language):
     """
     next = request.GET.get("next", "/")
     next = "/" if next == "undefined" else next
+    # next = next.replace('/texts', '')
 
     for domain in DOMAIN_LANGUAGES:
         if DOMAIN_LANGUAGES[domain] == language and not request.get_host() in domain:
             next = domain + next
-            next = next + ("&" if "?" in next else "?") + "set-language-cookie"
+            next = next + ("&" if "?" in next else "?") + "set-language-cookie=" + domain
             break
-
     response = redirect(next)
-
+    print('language' + language)
     response.set_cookie("interfaceLang", language)
     if request.user.is_authenticated:
         p = UserProfile(id=request.user.id)
         p.settings["interface_language"] = language
         p.save()
+    print('RESPONSE')  
+    print(response)    
     return response
 
 

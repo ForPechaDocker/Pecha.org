@@ -1,4 +1,4 @@
-import {InterfaceText, EnglishText, HebrewText, LanguageToggleButton, CloseButton } from "./Misc";
+import {InterfaceText, EnglishText, HebrewText, TibetanText, LanguageToggleButton, CloseButton } from "./Misc";
 import {RecentFilterSet} from "./ConnectionFilters";
 import React  from 'react';
 import ReactDOM  from 'react-dom';
@@ -70,6 +70,10 @@ class ConnectionsPanelHeader extends Component {
                             <i className="fa fa-chevron-right"></i>
                             {this.props.multiPanel ? prevHe : null }
                         </HebrewText>
+                        <TibetanText>
+                            <i className="fa fa-chevron-left"></i>
+                            {this.props.multiPanel ? prevHe : null }
+                        </TibetanText>
                     </InterfaceText>
                   </a>;
     } else {
@@ -89,6 +93,10 @@ class ConnectionsPanelHeader extends Component {
                             <i className="fa fa-chevron-right"></i>
                             קישורים וכלים
                         </HebrewText>
+                        <TibetanText>
+                            <i className="fa fa-chevron-right"></i>
+                            ཡོང་ཁུངས་
+                        </TibetanText>
                     </InterfaceText>
                   </a>;
     }

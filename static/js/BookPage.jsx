@@ -7,7 +7,7 @@ import {
   LoadingMessage,
   TabView,
   InterfaceText,
-  ContentText, EnglishText, HebrewText, LanguageToggleButton,
+  ContentText, EnglishText, HebrewText, TibetanText, LanguageToggleButton,
   AdminToolHeader,
   CategoryChooser,
   TitleVariants,
@@ -1330,6 +1330,7 @@ class ReadMoreText extends Component {
           <InterfaceText>
             <EnglishText className="int-en">Read More ›</EnglishText>
             <HebrewText className="int-he">קרא עוד ›</HebrewText>
+            <TibetanText className="int-he">མང་ཙམ་གློགས་ ›</TibetanText>
           </InterfaceText>
 
         </span>

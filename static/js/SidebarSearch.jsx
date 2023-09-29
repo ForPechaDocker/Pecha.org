@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import {InterfaceText, EnglishText, HebrewText} from "./Misc";
+import {InterfaceText, EnglishText, HebrewText, TibetanText} from "./Misc";
 import Sefaria from "./sefaria/sefaria";
 import SearchState from './sefaria/searchState';
 import SearchResultList  from './SearchResultList';

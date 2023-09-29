@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import {SheetAuthorStatement, InterfaceText, ProfilePic, EnglishText, HebrewText} from "./Misc";
+import {SheetAuthorStatement, InterfaceText, ProfilePic, EnglishText, HebrewText, TibetanText} from "./Misc";
 import Sefaria from "./sefaria/sefaria";
 import ReactTags from 'react-tag-autocomplete'
 import { useDebounce } from "./Hooks";
@@ -263,6 +263,7 @@ const AboutSheet = ({ masterPanelSheetId, toggleSignUpModal }) => {
                     <InterfaceText>
                         <EnglishText>Your Sheet is <span className="publishedTextBold">published</span> on Sefaria and visible to others.</EnglishText>
                         <HebrewText>דף המקורות שלך <span className="publishedTextBold">מפורסם</span> בספריא וגלוי למשתמשים אחרים</HebrewText>
+                        <TibetanText>བཀྲ་ཤིས་བདེ་ལེགས་ <span className="publishedTextBold">מפורסם</span> ཕུན་གསུམ་ཚོགས་</TibetanText>
                     </InterfaceText>
                 </div>
                 <button className="button published" onClick={togglePublish}>

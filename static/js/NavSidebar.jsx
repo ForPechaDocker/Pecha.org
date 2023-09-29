@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import classNames  from 'classnames';
 import PropTypes  from 'prop-types';
 import Sefaria  from './sefaria/sefaria';
-import {DonateLink, EnglishText, HebrewText, NewsletterSignUpForm} from './Misc'
+import {DonateLink, EnglishText, HebrewText, TibetanText, NewsletterSignUpForm} from './Misc'
 import {InterfaceText, ProfileListing, Dropdown} from './Misc';
 import { Promotions } from './Promotions'
 
@@ -99,11 +99,15 @@ const AboutSefaria = ({hideTitle}) => (
         <HebrewText>
         སྒྱུ་འཕྲུལ་དྲ་བ་ནི་ལོ་༢༥༠༠རིང་གི་ནང་ཆོས་དཔེ་དེབ་ཉར་ཚགས་བྱེད་ས་ཞིག་ཡིན་ ང་ཚོས་དྲ་རྒྱ་འདི་བརྒྱུད་ཁྱེད་རྣམས་ལ་ཡི་གེ་དང་ཡིག་སྒྱུར་དེ་བཞིན་མཆན་འགོད་ཀྱི་ཁྱད་ཆོས་བསྐྲུན་ཡོད་ཚང་མས་སྦྱོང་བ་དང་གསར་བཟོ་བྱས་ཏེ་དྲ་རྒྱའི་དཔེ་མཛོད་ཞིག་བཟོ་ཐུབས་
         </HebrewText>
+        <TibetanText>
+        སྒྱུ་འཕྲུལ་དྲ་བ་ནི་ལོ་༢༥༠༠རིང་གི་ནང་ཆོས་དཔེ་དེབ་ཉར་ཚགས་བྱེད་ས་ཞིག་ཡིན་ ང་ཚོས་དྲ་རྒྱ་འདི་བརྒྱུད་ཁྱེད་རྣམས་ལ་ཡི་གེ་དང་ཡིག་སྒྱུར་དེ་བཞིན་མཆན་འགོད་ཀྱི་ཁྱད་ཆོས་བསྐྲུན་ཡོད་ཚང་མས་སྦྱོང་བ་དང་གསར་བཟོ་བྱས་ཏེ་དྲ་རྒྱའི་དཔེ་མཛོད་ཞིག་བཟོ་ཐུབས་
+        </TibetanText>
     </InterfaceText>
     <a href="/about" className="inTextLink">
       <InterfaceText>
           <EnglishText>Learn More ›</EnglishText>
           <HebrewText>לקריאה נוספת ›</HebrewText>
+          <TibetanText>མུ་མཐུད་གཟིགས་ ›</TibetanText>
       </InterfaceText>
     </a>
   </Module>
@@ -142,6 +146,9 @@ const AboutTranslatedText = ({translationsSlug}) => {
           אנו ארגון ללא מטרות רווח המציע גישה חופשית למקורות יהודיים, לתרגומים ולפרשנויות,
           ומטרתנו לאפשר לכל אחד ואחת להשתתף בתהליך המתמשך של לימוד וחידוש בתורה.
         </HebrewText>
+        <TibetanText>
+         སྒྱུ་འཕྲུལ་དྲ་བ་ནི་ལོ་༢༥༠༠རིང་གི་ནང་ཆོས་དཔེ་དེབ་ཉར་ཚགས་བྱེད་ས་ཞིག་ཡིན་ ང་ཚོས་དྲ་རྒྱ་འདི་བརྒྱུད་ཁྱེད་རྣམས་ལ་ཡི་གེ་དང་ཡིག་སྒྱུར་དེ་བཞིན་མཆན་འགོད་ཀྱི་ཁྱད་ཆོས་བསྐྲུན་ཡོད་ཚང་མས་སྦྱོང་བ་དང་གསར་བཟོ་བྱས་ཏེ་དྲ་རྒྱའི་དཔེ་མཛོད་ཞིག་བཟོ་ཐུབས་
+        </TibetanText>
         </InterfaceText>
         }
   </Module>
@@ -337,6 +344,9 @@ const Translations = () => {
       <HebrewText>
         יצירות נבחרות מהספרייה בתרגומים לשפות שונות.
       </HebrewText>
+      <TibetanText>
+        བོད་ཡིག་ཚོད་བལྟ་
+      </TibetanText>
     </InterfaceText>
     <TranslationLinks />
   </Module>)
@@ -369,6 +379,7 @@ const LearningSchedules = () => {
         <InterfaceText>
         <EnglishText>All Learning Schedules ›</EnglishText>
         <HebrewText>לוחות לימוד נוספים ›</HebrewText>
+        <TibetanText>སྦྱོང་ཡིག་ཚང་མའི་རེའུ་མིག་ ›</TibetanText>
         </InterfaceText>
       </a>
     </Module>
@@ -396,6 +407,7 @@ const WeeklyTorahPortion = () => {
         <InterfaceText>
         <EnglishText>All Portions ›</EnglishText>
         <HebrewText>פרשות השבוע ›</HebrewText>
+        <TibetanText>བོད་ཡིག་ཚོད་བལྟ་ ›</TibetanText>
         </InterfaceText>
       </a>
     </Module>
@@ -463,6 +475,7 @@ const Visualizations = ({categories}) => {
         <InterfaceText>
         <EnglishText>All Visualizations ›</EnglishText>
         <HebrewText>תרשימים גרפיים נוספים ›</HebrewText>
+        <TibetanText>བོད་ཡིག་ཚོད་བལྟ་ ›</TibetanText>
         </InterfaceText>
       </a>
     </Module>
@@ -481,6 +494,9 @@ const AboutTopics = ({hideTitle}) => (
         <EnglishText>
             Topics bring you straight to selections of texts and user created source sheets about thousands of subjects. Sources that appear are drawn from existing indices of Jewish texts (like Aspaklaria) and from the sources our users include on their public source sheets.
         </EnglishText>
+        <TibetanText>
+            བོད་ཡིག་ཚོད་བལྟ་
+        </TibetanText>
 
     </InterfaceText>
   </Module>
@@ -619,6 +635,9 @@ const AboutLearningSchedules = () => (
             מימי קדם חולקה התורה לקטעי קריאה שבועיים שנועדו לסיום הספר כולו במשך תקופת זמן של שנה.
             בעקבות המנהג הזה התפתחו לאורך השנים סדרי לימוד תקופתיים רבים נוספים, ובעזרתם יכולות קהילות וקבוצות של לומדים ללמוד יחד טקסטים שלמים.
         </HebrewText>
+        <TibetanText>
+            བོད་ཡིག་ཚོད་བལྟ་
+        </TibetanText>
     </InterfaceText>
   </Module>
 );
@@ -631,6 +650,7 @@ const AboutCollections = ({hideTitle}) => (
     <InterfaceText>
         <EnglishText>Collections are user generated bundles of sheets which can be used privately, shared with friends, or made public on Sefaria.</EnglishText>
         <HebrewText>אסופות הן מקבצים של דפי מקורות שנוצרו על ידי משתמשי האתר. הן ניתנות לשימוש פרטי, לצורך שיתוף עם אחרים או לשימוש ציבורי באתר ספריא.</HebrewText>
+        <TibetanText>བོད་ཡིག་ཚོད་བལྟ་</TibetanText>
     </InterfaceText>
     {hideTitle ? null :
     <div>

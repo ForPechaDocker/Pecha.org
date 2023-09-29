@@ -10,7 +10,7 @@ import {
   FeedbackBox,
   ProfilePic,
   DivineNameReplacer,
-  ToolTipped, InterfaceText, ContentText, EnglishText, HebrewText,
+  ToolTipped, InterfaceText, ContentText, EnglishText, HebrewText, TibetanText,
 } from './Misc';
 
 import {
