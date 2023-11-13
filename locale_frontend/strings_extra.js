@@ -168,5 +168,13 @@ define({
   "save": "save",
   "Source": "Source",
   "add": "add",
-  "file": "file"
+  "file": "file",
+  // Browse Sources Page inside New Source Sheet page
+  "Browse texts with the menu on the left": "Browse texts with the menu on the left",
+  "All Texts": "All Texts",
+  "Collections are user generated bundles of sheets which can be used privately, shared with friends, or made public on Pecha": "Collections are user generated bundles of sheets which can be used privately, shared with friends, or made public on Pecha",
+  "Edit Profile": "Edit Profile",
+  "Settings": "Settings",
+  "Notes": "Notes",
+  "add picture": "add picture"
 });    
