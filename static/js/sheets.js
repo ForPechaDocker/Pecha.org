@@ -3595,7 +3595,7 @@ function deleteSheet() {
 					"<a href='/my/profile'>" +
 						"<div class='ok btn'>" +
 							"<span class='int-en'>OK</span>" +
-							"<span class='int-he'>המשך</span>" +
+							"<span class='int-he'>འགྲིག</span>" +
 						"</div>" +
 					"</a>"
 				);
