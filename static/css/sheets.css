@@ -931,7 +931,7 @@ body:not(.user-is-tabbing) #sheet .cke_editable:focus {
 	margin-top: 20px;
 }
 .interface-hebrew #empty #howItWorks{
-	text-align: right;
+	text-align: left;
 }
 #empty h1 {
 	font-size: 32px;
