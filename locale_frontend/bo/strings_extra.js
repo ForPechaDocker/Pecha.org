@@ -156,5 +156,16 @@ define(
     "OK": "འགྲིག",
     "No problem, this sheet is still not listed on Sefaria.": "གནད་དོན་མི་འདུག ཤོག་ངོས་འདི་ད་དུང་Sefaria དྲ་ཐོག་དཔེ་མཛོད་ནང་ཐོ་རུ་བཀོད་མི་འདུག",
     "You can make your sheet public in the future from the": "ཁྱེད་ཀྱིས་གཞུག་ཕྱོགས་རང་ཉིད་ཀྱི་ཤོག་ངོས་མི་ཚང་མས་མཐོང་ཐུབ་པ་བཟོ་ཆོག",
-    "menu": "ཐོ་གཞུང་།"
+    "menu": "ཐོ་གཞུང་།",
+    "Last Saved": "ཉེ་ཆར་ཉར་ཚགས་བྱས་པ།",
+    "save": "ཉར་ཚགས།",
+    "add": "སྣོན།",
+    "file": "ཡིག་ཆ།",
+    "Browse texts with the menu on the left": "གཡོན་ངོས་ཀྱི་ཐོ་གཞུང་འདིའི་ནང་གི་དཔེ་ཆར་མིག་བཤེར་བྱོས།",
+    "All Texts": "དཔེ་ཆ་ཡོངས་རྫོགས།",
+    "Collections are user generated bundles of sheets which can be used privately, shared with friends, or made public on Pecha": "ཕྱོགས་བསྒྲིགས་རྣམས་ནི་དཔེ་ཆ་ཚིགས་ནང་སྤྱོད་མཁན་རྣམས་ཀྱིས་གསར་བཟོ་བྱས་པའི་ཤོག་ངོས་ཁག་སྟེ་སྒེར་སྤྱོད་ཁོ་ན་བྱེད་པ་དང་ཡང་ན་གྲོགས་པོ་གཞན་ལ་བརྒྱུད་སྐུར་ཡང་ན་སྤྱི་སྤྱོད་ཅི་རིགས་བྱ་ཐུབ་པའི་དཔེ་ཚོགས་རྣམས་ལ་གོ།",
+    "Edit Profile": "སྙིང་བསྡུས་རྩོམ་སྒྲིག",
+    "Settings": "སྒྲིག་འགོད་ཁག",
+    "Notes": "མཆན།",
+    "add picture": "འདྲ་པར་སྣོན།"
 });
