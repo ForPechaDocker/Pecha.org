@@ -135,6 +135,7 @@ const Strings = {
     "Create a New Sheet": "ཤོག་ངོས་གསར་པ་ཞིག་བཟོས།",
     "Source Sheets": "མ་ཕྱིའི་ཤོག་ངོས།",
     "Sheets": "ཤོག་ངོས་ཁག",
+    "Notes": "མཆན།",
     "Start a New Source Sheet": "ཤོག་ངོས་གསར་པ་ཞིག་གི་འགོ་རྩོམ།",
     "Untitled Source Sheet": "མཚན་བྱང་མེད་པའི་མ་ཕྱིའི་ཤོག་ངོས།",
     "Untitled": "མཚན་བྱང་མེད་པ།",

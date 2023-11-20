@@ -445,7 +445,7 @@ class ProfilePic extends Component {
             <input type="file" className="profile-pic-input-file" id="profile-pic-input-file" onChange={this.onSelectFile} onClick={(event) => { event.target.value = null }} />
             <label htmlFor="profile-pic-input-file" className={classNames({ resourcesLink: 1, blue: showDefault })}>
               <span className="int-en">{showDefault ? "Add Picture" : "Upload New"}</span>
-              <span className="int-he">{showDefault ? "הוספת תמונה" : "עדכון תמונה"}</span>
+              <span className="int-he">{showDefault ? "འདྲ་པར་སྣོན།" : " གསར་འཇུག་བྱོས།"}</span>
             </label>
           </div>) : null
         }
