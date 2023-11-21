@@ -2050,22 +2050,22 @@ function NewsletterSignUpForm(props) {
   return (
     <div className="newsletterSignUpBox">
       <span className="int-en">
-        <input
+        {/*<input
           className="newsletterInput"
           placeholder="Sign up for Newsletter"
           value={email}
           onChange={e => setEmail(e.target.value)}
-          onKeyUp={handleSubscribeKeyUp} />
+  onKeyUp={handleSubscribeKeyUp} />*/}
       </span>
       <span className="int-he">
-        <input
+        {/*<input
           className="newsletterInput"
           placeholder="གནས་ཚུལ་རགས་ཆེད་ཡར་འཛུལ་བྱེད་།"
           value={email}
           onChange={e => setEmail(e.target.value)}
-          onKeyUp={handleSubscribeKeyUp} />
+onKeyUp={handleSubscribeKeyUp} />*/}
       </span>
-      {!showNameInputs ? <img src="/static/img/circled-arrow-right.svg" onClick={handleSubscribe} /> : null}
+      {/*{!showNameInputs ? <img src="/static/img/circled-arrow-right.svg" onClick={handleSubscribe} /> : null}*/}
       {showNameInputs ?
         <><span className="int-en">
           <input
