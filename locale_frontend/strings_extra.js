@@ -217,5 +217,6 @@ define({
   "Profile URL": "Profile URL",
   "Twitter Handle": "Twitter Handle",
   "LinkedIn": "LinkedIn",
-  "YouTube Channel": "YouTube Channel"
+  "YouTube Channel": "YouTube Channel",
+  "Pecha is home to 2500 years of Buddhist texts. We are offering free access to texts, translations,and commentaries so that everyone can participate in the ongoing process of studying, interpreting, and creating Buddhist text library.": "Pecha is home to 2500 years of Buddhist texts. We are offering free access to texts, translations,and commentaries so that everyone can participate in the ongoing process of studying, interpreting, and creating Buddhist text library."
 });    
