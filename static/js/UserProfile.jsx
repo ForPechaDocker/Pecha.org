@@ -605,16 +605,16 @@ const ProfileSummary = ({ profile:p, follow, openFollowers, openFollowing, toggl
           <div className="profile-actions">
             <a href="/settings/profile" className="resourcesLink sans-serif">
               <span className="int-en">Edit Profile</span>
-              <span className="int-he">עריכת פרופיל</span>
+              <span className="int-he">སྙིང་བསྡུས་རྩོམ་སྒྲིག</span>
             </a>
             <a href="/settings/account" className="resourcesLink sans-serif profile-settings">
               <img src="/static/icons/settings.svg" alt="Profile Settings" />
               <span className="int-en">Settings</span>
-              <span className="int-he">הגדרות</span>
+              <span className="int-he">སྒྲིག་འགོད་ཁག</span>
             </a>
             <a href="/logout" className="button transparent logoutLink">
               <span className="int-en">Log Out</span>
-              <span className="int-he">ניתוק</span>
+              <span className="int-he">ཕྱིར་ཐོན།</span>
             </a>
           </div>) : (
           <div className="profile-actions">

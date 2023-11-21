@@ -174,8 +174,9 @@ const TheJewishLibrary = ({hideTitle}) => (
 );
 
 
-const SupportSefaria = ({blue}) => (
-  <Module blue={blue}>
+const SupportSefaria = ({white}) => (
+  <Module blue={white}>
+    {/*
     <ModuleTitle>Support Sefaria</ModuleTitle>
     <InterfaceText>Sefaria is an open source, non-profit project. Support us by making a tax-deductible donation.</InterfaceText>
     <br />
@@ -183,6 +184,7 @@ const SupportSefaria = ({blue}) => (
       <img src="/static/img/heart.png" alt="donation icon" />
       <InterfaceText>Make a Donation</InterfaceText>
     </DonateLink>
+*/}
   </Module>
 );
 
@@ -584,6 +586,7 @@ const StayConnected = () => { // TODO: remove? looks like we are not using this
 
   return (
     <Module>
+      {/*
       <ModuleTitle>Stay Connected</ModuleTitle>
       <InterfaceText>Get updates on new texts, learning resources, features, and more.</InterfaceText>
       <br />
@@ -601,7 +604,7 @@ const StayConnected = () => { // TODO: remove? looks like we are not using this
       <a target="_blank" className="button small white appButton iconOnly" href="https://www.youtube.com/user/SefariaProject">
         <img src="/static/icons/youtube.svg" alt={Sefaria._("Sefaria on YouTube")} />
       </a>
-
+  */}
     </Module>
   );
 };

@@ -1,19 +1,19 @@
 const Strings = {
   _i18nInterfaceStrings: {
-    "Sefaria": "Sefaria",
+    "Sefaria": "དཔེ་ཆ་དྲ་ཆིགས།",
     "Topics": "བརྗོད་གཞི།",
     "Community": "ཟིན་བྲིས།",
     "Donate": "ཞལ་འདེབས།",
-    "Sefaria Notifications": "Sefaria གསར་བརྡ་ཁག",
-    "Sefaria: a Living Library of Jewish Texts Online": "Sefaria ནི་དྲ་ཐོག་གི་ནང་བསྟན་གསུང་རབ་ཀྱི་དཔེ་མཛོད་ཅིག་ཡིན།",
+    "Sefaria Notifications": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་གསར་བརྡ་ཁག",
+    "Sefaria: a Living Library of Jewish Texts Online": "དཔེ་ཆ་དྲ་ཆིགས་ནི་དྲ་ཐོག་གི་ནང་བསྟན་གསུང་རབ་ཀྱི་དཔེ་མཛོད་ཅིག་ཡིན།",
     "Recently Viewed": "ཉེ་ཆར་བལྟས་པ།",
-    "The Sefaria Library": "Sefaria དྲ་ཐོག་དཔེ་མཛོད།",
-    "Sefaria Search": "Sefaria འཚོལ་ཞིབ།",
-    "Sefaria Account": "Sefaria ཁ་བྱང་།",
+    "The Sefaria Library": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་དྲ་ཐོག་དཔེ་མཛོད།",
+    "Sefaria Search": "དཔེ་ཆ་དྲ་ཆིགས་འཚོལ་ཞིབ།",
+    "Sefaria Account": "དཔེ་ཆ་དྲ་ཆིགས་ཁ་བྱང་།",
     "Notifcations": "གསར་བརྡ་ཁག",
-    "New Additions to the Sefaria Library": "Sefaria དཔེ་མཛོད་ནང་གི་པར་གཞི་གསར་པ་ཁག",
-    "My Notes on Sefaria": "Sefaria ནང་གི་ངའི་ཟུར་མཆན་རྣམས།",
-    "Texts & Source Sheets from Torah, Talmud and Sefaria's library of Jewish sources.": "ཆོས་མཛོད་འདིའི་ནང་གི་དཔེ་ཆ་དང་མ་ཕྱིའི་ཤོག་ངོས་རྣམས།  ནང་བསྟན་དང་འབྲེལ་བའི་ཚན་པ་འདིའི་Sefaria དཔེ་མཛོད།",
+    "New Additions to the Sefaria Library": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་དཔེ་མཛོད་ནང་གི་པར་གཞི་གསར་པ་ཁག",
+    "My Notes on Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་ནང་གི་ངའི་ཟུར་མཆན་རྣམས།",
+    "Texts & Source Sheets from Torah, Talmud and Sefaria's library of Jewish sources.": "ཆོས་མཛོད་འདིའི་ནང་གི་དཔེ་ཆ་དང་མ་ཕྱིའི་ཤོག་ངོས་རྣམས།  ནང་བསྟན་དང་འབྲེལ་བའི་ཚན་པ་འདིའི་དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་དཔེ་མཛོད།",
     "Moderator Tools": "སྟངས་འཛིན་ལག་ཆ་རྣམས།",
     " with ": "མཉམ་དུ་",
     "Connections": "འབྲེལ་ཡོད་རྣམས།",
@@ -26,21 +26,21 @@ const Strings = {
     // Texts Page
     "Learn More": "རྒྱུས་ལོན་འདི་ལས་མང་བ་བྱོས།",
     "Learning Schedules": "སློབ་གཉེར་བྱེད་པའི་དུས་བཅད་རྣམས།",
-    "Teach with Sefaria": "Sefaria བརྒྱུད་ནས་སློབ་ཁྲིད་བྱེད།",
+    "Teach with Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་བརྒྱུད་ནས་སློབ་ཁྲིད་བྱེད།",
     "Visualizations": "མཐོང་ཐུབ་པའི་རྣམ་པ་ཅན།",
     "Torah Tab": "ཐོ་རཱའི་ཐེབས།",
     "Get the Mobile App": "འདིའི་ཁ་པར་མཉེན་ཆས།",
     "Access the Jewish library anywhere and anytime with the": "སྤྱད་དེ་ས་གནས་དང་དུས་ཚོད་གང་ཡིན་གྱི་ཁྱད་པར་མེད་པར་ནང་བསྟན་དཔེ་མཛོད་འདི་འཚོལ་སྔོག",
-    "Sefaria mobile app.": "Sefaria ཡི་ཁ་པར་མཉེན་ཆས།",
+    "Sefaria mobile app.": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་ཁ་པར་མཉེན་ཆས།",
     "Stay Connected": "འབྲེལ་བ་རྒྱུན་འཁྱོངས་བྱོས།",
     "Get updates on new texts, learning resources, features, and more.": "དཔེ་དེབ་གསར་པ་ཁག་དང་སློབ་གཉེར་གྱི་རྒྱུ་ཆ། ཁྱད་ཆོས་གཞན་སོགས་ཁ་སྣོན་བྱས་པ་རྣམས་ལོངས།",
-    "Support Sefaria": "Sefaria ལ་རྒྱབ་སྐྱོར་བྱེད་རོགས།",
-    "Sefaria is an open source, non-profit project. Support us by making a tax-deductible donation.": "Sefaria དྲ་ཐོག་དཔེ་མཛོད་ནི་སྤྱི་སྤྱོད་ཁོ་ན་དང་ཁེ་མེད་ཀྱི་ལས་གཞི་ཞིག་ཡིན། ལས་གཞི་འདིར་དཔྱ་ཁྲལ་ཆག་ཡང་གི་ཞལ་འདེབས་ཀྱི་རྒྱབ་སྐྱོར་རེ་གནང་རོགས།",
+    "Support Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་ལ་རྒྱབ་སྐྱོར་བྱེད་རོགས།",
+    "Sefaria is an open source, non-profit project. Support us by making a tax-deductible donation.": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་དྲ་ཐོག་དཔེ་མཛོད་ནི་སྤྱི་སྤྱོད་ཁོ་ན་དང་ཁེ་མེད་ཀྱི་ལས་གཞི་ཞིག་ཡིན། ལས་གཞི་འདིར་དཔྱ་ཁྲལ་ཆག་ཡང་གི་ཞལ་འདེབས་ཀྱི་རྒྱབ་སྐྱོར་རེ་གནང་རོགས།",
     "Make a Donation": "ཞལ་འདེབས་ཤིག་ཕུལ་རོགས།",
     "Join the Conversation": "གླེང་སྟེགས་ནང་མཉམ་ཞུགས་བྱོས།",
     "Explore the Community": "ཚོགས་སྡེ་དེ་སྔོགས།",
-    "People around the world use Sefaria to create and share Torah resources. You're invited to add your voice.": "འཛམ་གླིང་གང་སར་བཞུགས་པའི་མི་ཚོས་རང་རང་གི་ས་ནས་Sefaria དྲ་ཐོག་དཔེ་མཛོད་སྤྱད་དེ་ནང་ཆོས་ཀྱི་རྒྱུ་ཆ་གསར་སྤེལ་དང་བརྒྱུད་སྐུར་བྱེད་ཀྱི་ཡོད། སྐུ་ཉིད་ཀྱང་འདིར་རང་ཉིད་ཀྱི་རྒྱུ་ཆ་གསར་སྤེལ་བྱེད་དུ་གདན་འདྲེན་ཞུས་ཡོད།",
-    "Create with Sefaria": "Sefaria སྤྱད་དེ་གསར་བཟོ་བྱོས།",
+    "People around the world use Sefaria to create and share Torah resources. You're invited to add your voice.": "འཛམ་གླིང་གང་སར་བཞུགས་པའི་མི་ཚོས་རང་རང་གི་ས་ནས་དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་དྲ་ཐོག་དཔེ་མཛོད་སྤྱད་དེ་ནང་ཆོས་ཀྱི་རྒྱུ་ཆ་གསར་སྤེལ་དང་བརྒྱུད་སྐུར་བྱེད་ཀྱི་ཡོད། སྐུ་ཉིད་ཀྱང་འདིར་རང་ཉིད་ཀྱི་རྒྱུ་ཆ་གསར་སྤེལ་བྱེད་དུ་གདན་འདྲེན་ཞུས་ཡོད།",
+    "Create with Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་སྤྱད་དེ་གསར་བཟོ་བྱོས།",
     "Mobile Apps": "ཁ་པར་མཉེན་ཆས་ཁག",
     "Browse the Library": "དཔེ་མཛོད་དེར་མིག་བཤེར་བྱོས།",
     "Weekly Torah Portion": "བདུན་རེའི་སྦྱོང་བྱ།",
@@ -105,8 +105,8 @@ const Strings = {
 
 
     // Community Page
-    "From the Community: Today on Sefaria": "Sefaria ནང་གི་ཚོགས་སྡེ་དེའི་ དེ་རིང་གི་རྣམ་པ།",
-    "Today on Sefaria": "་དེ་རིང་དཔེ་ཆ་དྲ་ཆིགས་ཐོག",
+    "From the Community: Today on Sefaria": "དེ་རིང་དཔེ་ཆ་དྲ་ཆིགས་ནང་གི་ཚོགས་སྡེ་དེའི་དེ་རིང་གི་རྣམ་པ།",
+    "Today on Sefaria": "དེ་རིང་དཔེ་ཆ་དྲ་ཆིགས་ཐོག",
     "Who to Follow": "སུས་རྗེས་འཇུག་བྱེད།",
     "Explore Collections": "ཕྱོགས་བསྒྲིགས་འཚོལ་ཞིབ།",
     "Organizations, communities and individuals around the world curate and share collections of sheets for you to explore.": "འཛམ་གླིང་གི་ཕྱོགས་སོ་སོའི་སྒྲིག་འཛུགས་ཁག་དང་སྤྱི་ཚོགས། མི་སྒེར་བ་བཅས་ཀྱིས་རང་རང་གི་ས་ནས་ཁྱོད་ཀྱི་བལྟ་ཀློག་གི་ཆེད་དུ་དཔེ་ཚོགས་ཕྱོགས་བསྒྲིགས་དང་མཉམ་སྤྱོད་བཅས་བྱེད་ཐུབ།",
@@ -135,6 +135,7 @@ const Strings = {
     "Create a New Sheet": "ཤོག་ངོས་གསར་པ་ཞིག་བཟོས།",
     "Source Sheets": "མ་ཕྱིའི་ཤོག་ངོས།",
     "Sheets": "ཤོག་ངོས་ཁག",
+    "Notes": "མཆན།",
     "Start a New Source Sheet": "ཤོག་ངོས་གསར་པ་ཞིག་གི་འགོ་རྩོམ།",
     "Untitled Source Sheet": "མཚན་བྱང་མེད་པའི་མ་ཕྱིའི་ཤོག་ངོས།",
     "Untitled": "མཚན་བྱང་མེད་པ།",
@@ -207,8 +208,8 @@ const Strings = {
     "Publish Sheet": "སྤེལ་གྱི་ཤོག་ངོས།",
     "Your sheet is": "ཁྱེད་ཀྱི་ཤོག་ངོས་ནི་",
     "published": "སྤེལ་ཟིན།",
-    "on Sefaria and visible to others through search and topics.": "Sefaria ཡའི་ནང་དང་འཚོལ་ཞིབ་དང་བརྗོད་གཞི་བརྒྱུད་ནས་གཞན་གྱིས་མཐོང་ཐུབ་པ།",
-    "List your sheet on Sefaria for others to discover.": "Sefaria ནང་གཞན་གྱིས་རྙེད་ཐུབ་པའི་ཁྱེད་ཀྱི་ཤོག་ངོས་ཀྱི་ཐོ་གཞུང་།",
+    "on Sefaria and visible to others through search and topics.": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་ནང་འཚོལ་ཞིབ་དང་བརྗོད་གཞི་བརྒྱུད་ནས་གཞན་གྱིས་མཐོང་ཐུབ་པ།",
+    "List your sheet on Sefaria for others to discover.": "དཔེ་ཆ་དྲ་ཆིགས་ནང་གཞན་གྱིས་རྙེད་ཐུབ་པའི་ཁྱེད་ཀྱི་ཤོག་ངོས་ཀྱི་ཐོ་གཞུང་།",
     "Summary": "སྙིང་བསྡུས།",
     "Write a short description of your sheet...": "ཁྱེད་ཀྱི་ཤོག་ངོས་ཀྱི་འགྲེལ་བཤད་ཐུང་ངུ་ཞིག་ཕྲིས།",
     "Add a topic...": "བརྗོད་གཞི་ཞིག་སྣོན།",
@@ -219,7 +220,7 @@ const Strings = {
     "Please add a description to publish your sheet.": "ཁྱེད་ཀྱི་ཤོག་ངོས་སྤེལ་བ་ལ་འགྲེལ་བཤད་ཅིག་སྣོན་རོགས།",
     "The summary description is limited to 280 characters.": "འགྲེལ་བཤད་སྙིང་བསྡུས་ཀྱི་ཡིག་འབྲུའི་གྲངས་བཅད་ནི་མིང་ཚིག་༢༨༠ཡིན།",
     "People with this link can": "དྲ་ཐག་འདི་ཡོད་པའི་མི་རྣམས་ཀྱིས་ཐུབ་པ་ནི་",
-    "Publish your sheet on Sefaria for others to discover.": "གཞན་གྱིས་འཚོལ་ཞིབ་ཐུབ་ཆེད་ཁྱེད་ཀྱི་ཤོག་ངོས་Sefaria ནང་སྤེལ་རོགས།",
+    "Publish your sheet on Sefaria for others to discover.": "གཞན་གྱིས་འཚོལ་ཞིབ་ཐུབ་ཆེད་ཁྱེད་ཀྱི་ཤོག་ངོས་དཔེ་ཆ་དྲ་ཆིགས་ནང་སྤེལ་རོགས།",
 
     // Reader Panel
     "Search": "འཚོལ་ཞིབ།",
@@ -256,7 +257,7 @@ const Strings = {
     "Recent": "ཉེ་ཆར་གྱི་",
     "Unlisted": "ཐོ་རུ་བཀོད་མེད་པ།",
     "History": "ལོ་རྒྱུས།",
-    "Digitized by Sefaria": "Sefaria ཡིས་ཨང་བསྒྱུར་བྱས་པ།",
+    "Digitized by Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱིས་ཨང་བསྒྱུར་བྱས་པ།",
     "Public Domain": "སྤྱི་སྤྱོད་ཀྱི་ཆོག་མཆན་ཡོད་པ།",
     "Copyright: JPS, 1985": "པར་དབང་འཛིན་མཁན་ནི་ JPS, 1985",
     "Location: ": "ས་གནས་ནི་",
@@ -269,8 +270,8 @@ const Strings = {
     "Public Collections": "མི་མང་གི་ཕྱོགས་བསྒྲིགས་ཁག",
     "About Collections": "ཕྱོགས་བསྒྲིགས་ཁག་གི་སྐོར།",
     "Collection": "ཕྱོགས་བསྒྲིགས།",
-    "Collections of sheets are created by Sefaria users and can be privately, shared with friends, or made public on Sefaria.": "ཤོག་ངོས་ཀྱི་ཕྱོགས་བསྒྲིགས་རྣམས་ནི་Sefaria སྤྱོད་མཁན་རྣམས་ཀྱིས་བཟོས་པ་རེད། དེ་དག་རྣམས་Sefaria ནང་ནས་དོ་བདག་སྒེར་ངོས་ནས་རང་ཉིད་ཀྱི་གྲོགས་པོ་རྣམས་ལ་མཉམ་སྤྱོད་བྱེད་པ་དང་ཡང་ན་སྤྱི་སྤྱོད་ཅན་དུ་བཟོ་བ་གང་བྱས་ཀྱང་བྱེད་ཐུབ་པ་ཡིན།",
-    "Sefaria Collections": "Sefaria ནང་གི་ཕྱོགས་བསྒྲིགས་རྣམས།",
+    "Collections of sheets are created by Sefaria users and can be privately, shared with friends, or made public on Sefaria.": "ཤོག་ངོས་ཀྱི་ཕྱོགས་བསྒྲིགས་རྣམས་ནི་དཔེ་ཆ་དྲ་ཆིགས་སྤྱོད་མཁན་རྣམས་ཀྱིས་བཟོས་པ་རེད། དེ་དག་རྣམས་དཔེ་ཆ་དྲ་ཆིགས་ནང་ནས་དོ་བདག་སྒེར་ངོས་ནས་རང་ཉིད་ཀྱི་གྲོགས་པོ་རྣམས་ལ་མཉམ་སྤྱོད་བྱེད་པ་དང་ཡང་ན་སྤྱི་སྤྱོད་ཅན་དུ་བཟོ་བ་གང་བྱས་ཀྱང་བྱེད་ཐུབ་པ་ཡིན།",
+    "Sefaria Collections": "དཔེ་ཆ་དྲ་ཆིགས་ནང་གི་ཕྱོགས་བསྒྲིགས་རྣམས།",
     "Create a Collection": "ཕྱོགས་བསྒྲིགས་གསར་བཟོ།",
     "Create a New Collection": "ཕྱོགས་བསྒྲིགས་གསར་པ་ཞིག་བཟོ།",
 
@@ -306,7 +307,7 @@ const Strings = {
     "There are no public collections yet.": "འདིར་ད་དུང་མང་ཚོགས་ཀྱི་ཕྱོགས་བསྒྲིགས་མི་འདུག",
 
     // Collections in Profile
-    "You can use collections to organize your sheets or public sheets you like. Collections can be shared privately or made public on Sefaria.": "ཁྱེད་ཀྱིས་ཕྱོགས་བསྒྲིགས་རྣམས་སྤྱད་དེ་རང་ཉིད་དགའ་སའི་རང་གི་ཤོག་ངོས་དང་ཡང་ན་མི་གཞན་གྱི་ཤོག་ངོས་རྣམས་ཀྱི་གོ་རིམ་སྒྲིག་ཆོག Sefaria དཔེ་མཛོད་ནང་ནས་ཕྱོགས་བསྒྲིགས་རྣམས་དོ་བདག་རང་ངོས་ནས་བརྒྱུད་སྐུར་བྱེད་པ་དང་ཡང་ན་སྤྱི་སྤྱོད་ཅན་དུ་བཟོ་བ་གང་བྱས་ཀྱང་བྱེད་ཐུབ་པ་ཡིན།",
+    "You can use collections to organize your sheets or public sheets you like. Collections can be shared privately or made public on Sefaria.": "ཁྱེད་ཀྱིས་ཕྱོགས་བསྒྲིགས་རྣམས་སྤྱད་དེ་རང་ཉིད་དགའ་སའི་རང་གི་ཤོག་ངོས་དང་ཡང་ན་མི་གཞན་གྱི་ཤོག་ངོས་རྣམས་ཀྱི་གོ་རིམ་སྒྲིག་ཆོག དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་དཔེ་མཛོད་ནང་ནས་ཕྱོགས་བསྒྲིགས་རྣམས་དོ་བདག་རང་ངོས་ནས་བརྒྱུད་སྐུར་བྱེད་པ་དང་ཡང་ན་སྤྱི་སྤྱོད་ཅན་དུ་བཟོ་བ་གང་བྱས་ཀྱང་བྱེད་ཐུབ་པ་ཡིན།",
     " hasn't shared any collections yet.": "ད་དུང་ཕྱོགས་བསྒྲིགས་གང་ཡང་བརྒྱུད་སྐུར་བྱས་མི་འདུག",
     "Create new collection": "ཕྱོགས་བསྒྲིགས་གསར་པ་བཟོ།",
     "Create": "གསར་བཟོ།",
@@ -323,7 +324,7 @@ const Strings = {
     "Recommended size: 350px x 350px or larger": "ཆེས་ལེགས་པའི་ཆེ་ཆུང་ནི་ 350px x 350px དང་ཡང་ན་འདི་ལས་ཆེ་བ།",
     "Default Sheet Header": "རྨང་གཞིའི་ཤོག་ངོས་ཀྱི་འགོ་འདྲེན།",
     "Recommended size: 1000px width to fill sheet, smaller images align right": "ཤོག་ངོས་དགང་བ་ལ་ཆེས་ལེགས་པའི་ཞེང་ཚད་ནི་ 1000px. འདྲ་པར་ཆུང་བ་རྣམས་གཡས་ཕྱོགས་སུ་འཇོག་དགོས།",
-    "List on Sefaria": "Sefaria ནང་གི་ཐོ་གཞུང་།",
+    "List on Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་ནང་གི་ཐོ་གཞུང་།",
     "Your collection will appear on the public collections page where others can find it.": "ཁྱེད་ཀྱི་ཕྱོགས་བསྒྲིགས་སྤྱོད་མཁན་གཞན་གྱིས་འཚོལ་ཐུབ་སའི་སྤྱི་སྤྱོད་ཕྱོགས་བསྒྲིགས་ཀྱི་ཤོག་ངོས་སུ་འཆར་ཡོང་།",
     "Delete Collection": "ཕྱོགས་བསྒྲིགས་སུབ།",
     "Are you sure you want to delete this collection? This cannot be undone.": "ཁྱེད་ཀྱིས་ཕྱོགས་བསྒྲིགས་འདི་བསུབ་རྒྱུ་གཏན་འཁེལ་ཡིན་ནམ། འདི་བསུབ་རྗེས་སླར་གསོ་བྱེད་མི་ཐུབ།",
@@ -406,7 +407,7 @@ const Strings = {
     "Select Type": "རིགས་ཤིག་འདེམ།",
     "Added by": "ཡིས་བསྣན་འདུག",
     "Love Learning?": "སློབ་གཉེར་ལ་དགའ་བོ་ཡོད་དམ།",
-    "Sign up to get more from Sefaria": "Sefaria དྲ་ཐོག་དཔེ་མཛོད་ནས་འདི་ལས་མང་བ་ཐོབ་པ་ལ་ཞུགས་ཐོ་གསར་འགོད་བྱོས།",
+    "Sign up to get more from Sefaria": "དཔེ་ཆ་དྲ་ཐོག་དཔེ་མཛོད་ནས་འདི་ལས་མང་བ་ཐོབ་པ་ལ་ཞུགས་ཐོ་གསར་འགོད་བྱོས།",
     "Make source sheets": "མ་ཕྱིའི་ཤོག་ངོས་བཟོས།",
     "Take notes": "ཟིན་བྲིས་བྱོས།",
     "Save texts": "དཔེ་དེབ་ཉར་ཚགས།",
@@ -449,7 +450,7 @@ const Strings = {
     "Texts Read": "དཔེ་ཆ་བཀླགས་པ།",
     "Sheets Read": "ཤོག་ངོས་བཀླགས་པ།",
     "Sheets Created": "ཤོག་ངོས་བཟོས་པ།",
-    "Average Sefaria User": "ཆ་སྙོམས་Sefaria སྤྱོད་མཁན།",
+    "Average Sefaria User": "ཆ་སྙོམས་དཔེ་ཆ་དྲ་ཆིགས་སྤྱོད་མཁན།",
     "Etc": "ལ་སོགས་པ།",
 
     // Subscribe & Register
@@ -464,7 +465,7 @@ const Strings = {
     //Profile
     "Profile": "ངོ་སྤྲོད་སྙིང་བསྡུས།",
     " at ": "ལ་",
-    "on Sefaria": "Sefaria ནང་",
+    "on Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་ནང་",
 
     //New Editor Flow
     "Thanks for Trying the New Editor!": "རྩོམ་སྒྲིག་བྱེད་ཆས་གསར་པ་དེ་བཀོལ་སྤྱོད་བྱས་པར་བཀའ་དྲིན་ཆེ།",
@@ -472,7 +473,7 @@ const Strings = {
     "Back to Profile": "ངོ་སྤྲོད་སྙིང་བསྡུས་ཀྱི་ཤོག་ངོས་སུ་ཕྱིར་ལོག",
     "Go back to old version": "ཐོན་རིམ་རྙིང་བའི་ཐད་ཕྱིར་ལོག",
     "Request for Feedback": "བསམ་འཆར་གནང་བར་རེ་ཞུ་བྱོས།",
-    "Thank you for trying the new Sefaria editor! We’d love to hear what you thought. Please take a few minutes to give us feedback on your experience.": "ཁྱེད་ཀྱིས་Sefaria ཡི་རྩོམ་སྒྲིག་བྱེད་ཆས་གསར་བ་དེ་ཚོད་ལྟ་བྱས་པར་བཀའ་དྲིན་ཆེ། ང་ཚོས་ཁྱོད་ཀྱི་བསམ་འཆར་རྣམས་ཤེས་འདོད་ཆེན་པོ་བྱེད་ཀྱི་ཡོད་པས། ཁྱོད་ཀྱིས་སྐར་མ་འགའི་དུས་ཡུན་སྤྱད་ནས་ཉམས་མྱོང་གི་སྐོར་ཞིག་གསུངས་རོགས།",
+    "Thank you for trying the new Sefaria editor! We’d love to hear what you thought. Please take a few minutes to give us feedback on your experience.": "ཁྱེད་ཀྱིས་དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་རྩོམ་སྒྲིག་བྱེད་ཆས་གསར་བ་དེ་ཚོད་ལྟ་བྱས་པར་བཀའ་དྲིན་ཆེ། ང་ཚོས་ཁྱོད་ཀྱི་བསམ་འཆར་རྣམས་ཤེས་འདོད་ཆེན་པོ་བྱེད་ཀྱི་ཡོད་པས། ཁྱོད་ཀྱིས་སྐར་མ་འགའི་དུས་ཡུན་སྤྱད་ནས་ཉམས་མྱོང་གི་སྐོར་ཞིག་གསུངས་རོགས།",
     "Did you encounter any issues while using the new editor? For example:": "ཁྱེད་ཀྱིས་རྩོམ་སྒྲིག་བྱེད་ཆས་གསར་པ་བཀོལ་སྤྱོད་བྱེད་སྐབས་གནད་དོན་རེ་ལ་ཕྲད་སོང་ངམ། དཔེར་ན།",
     "Technical problems": "ཐབས་རྩལ་གྱི་དཀའ་ངལ།",
     "Difficulties using the editor": "རྩོམ་སྒྲིག་བྱེད་ཆས་དེ་བཀོལ་སྤྱོད་བྱེད་མི་བདེ་བ།",
@@ -480,8 +481,8 @@ const Strings = {
     "Tell us about it...": "ང་ཚོར་དེའི་སྐོར་ཞིག་གསུང་རོགས།",
     "Submit Feedback": "བསམ་འཆར་སྤེལ་རོགས།",
     "Thank you!": "བཀའ་དྲིན་ཆེ།",
-    "You are currently testing the new Sefaria editor.": "ཁྱེད་ཀྱིས་ད་ལྟ་ཚོད་ལྟ་བྱེད་བཞིན་པ་དེ་Sefaria ཡི་རྩོམ་སྒྲིག་བྱེད་ཆས་གསར་པ་དེ་རེད།",
-    "You are currently using the old Sefaria editor.": "ཁྱེད་ཀྱིས་ད་ལྟ་ཚོད་ལྟ་བྱེད་བཞིན་པ་དེ་Sefaria ཡི་རྩོམ་སྒྲིག་བྱེད་ཆས་རྙིང་བ་དེ་རེད།",
+    "You are currently testing the new Sefaria editor.": "ཁྱེད་ཀྱིས་ད་ལྟ་ཚོད་ལྟ་བྱེད་བཞིན་པ་དེ་དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་རྩོམ་སྒྲིག་བྱེད་ཆས་གསར་པ་དེ་རེད།",
+    "You are currently using the old Sefaria editor.": "ཁྱེད་ཀྱིས་ད་ལྟ་ཚོད་ལྟ་བྱེད་བཞིན་པ་དེ་དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་རྩོམ་སྒྲིག་བྱེད་ཆས་རྙིང་བ་དེ་རེད།",
     "Try the new version": "ཐོན་རིམ་གསར་པ་དེ་ཚོད་ལྟ་བྱོས།",
     "Your feedback is greatly appreciated. You can now edit your sheets again using the old source sheet editor. If you have any questions or additional feedback you can reach us at": "ཁྱེད་ཀྱིས་བསམ་འཆར་ཕུལ་བ་ལ་རྗེས་སུ་ཡི་རང་ཞུ། ད་ལྟ་ཁྱེད་ཀྱིས་བསྐྱར་དུ་མ་ཕྱིའི་ཤོག་ངོས་རྩོམ་སྒྲིག་བྱེད་ཆས་རྙིང་བ་དེ་བཀོལ་ནས་རང་ཉིད་ཀྱི་ཤོག་ངོས་རྩོམ་སྒྲིག་བྱེད་ཆོག གལ་སྲིད་ཁྱེད་ལ་དོགས་འདྲི་དང་བསམ་འཆར་འཕར་མ་སོགས་ཡོད་ན་འདི་ནས་ང་ཚོར་ཐད་ཀར་འབྲེལ་བ་གནང་རོགས།",
 
@@ -501,7 +502,7 @@ const Strings = {
     "Wikipedia": "ཝེ་ཁེ་རིག་མཛོད།",
     "Jewish Encyclopedia": "བོད་ཀྱི་ཤེས་བྱ་ཀུན་འདུས་ཆེན་མོ།",
     "National Library of Israel": "ཨེ་ཟི་རལ་རྒྱལ་ཡོངས་དཔེ་མཛོད་ཁང་།",
-    "Works on Sefaria": "Sefaria ནང་གི་བརྩམས་ཆོས་རྣམས།",
+    "Works on Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་ནང་གི་བརྩམས་ཆོས་རྣམས།",
 
     //Module Names
     "Download Text": "དཔེ་དེབ་ཕབ་ལེན།",
@@ -514,7 +515,7 @@ const Strings = {
 
     //Mobile Nav Header 
     "Get Help": "རམ་འདེགས་ཞུ།", //already has a similar string here but with different capitalization, maybe fix bug when not right before a launch?
-    "About Sefaria": "Sefaria ཡའི་སྐོར།",
+    "About Sefaria": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་སྐོར།",
     "Saved & History": "ཉར་ཚགས། & ལོ་རྒྱུས།",
 
     //Misc
@@ -523,7 +524,7 @@ const Strings = {
     //WebPage
     "Citing": "ལུང་འདྲེན།",
     "Sites that are listed here use the": "བཀོལ་སྤྱོད་བྱེད་པ་ལ་ཐོ་རུ་བཀོད་པའི་ས་ཆ་རྣམས།",
-    "Sefaria Linker": "Sefaria ཡི་སྦྲེལ་མཐུད་བྱེད་ཆས།",
+    "Sefaria Linker": "དཔེ་ཆ་དྲ་ཆིགས་ཀྱི་སྦྲེལ་མཐུད་བྱེད་ཆས།",
   },
 
   _i18nInterfaceStringsWithContext: {
