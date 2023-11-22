@@ -23,7 +23,7 @@ define(
     "Get Involved": "མཉམ་ཞུགས་བྱོས།",
     "API Docs": "API Docs",
     "Download our Data": "ང་ཚོའི་གཞི་གྲངས་ཕབ་ལེན།",
-    "Join Us": "ང་ཚོར་མཉམ་ཞུགས་བྱོས།",
+    "Join Us": "ང་ཚོར་མཉམ་ཞུགས།",
     "Donate": "ཞལ་འདེབས།",
     "Ways to Give": "འབུལ་ཐབས།",
     "Supporters": "རྒྱབ་སྐྱོར་བྱེད་མཁན།",
