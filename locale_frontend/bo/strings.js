@@ -89,7 +89,7 @@ define(
     "All Topics": "བརྗོད་གཞི་ཆ་ཚང་།",
     "Reset": "བསྐྱར་སྒྲིག",
     "Search Topics": "བརྗོད་གཞི་འཚོལ་ཞིབ།",
-    "From the Community: Today on Sefaria": "Sefaria ནང་གི་ཚོགས་སྡེ་དེའི་ དེ་རིང་གི་རྣམ་པ།",
+    "From the Community: Today on Sefaria": "དཔེ་ཆ་དྲ་ཚིགས་ཀྱི་ཚོགས་སྡེ། དེ་རིང་གི་རྣམ་པ།",
     "Today on Sefaria": "དཔེ་ཆ་དྲ་ཚིགས་ཀྱི་དེ་རིང་།",
     "Who to Follow": "སུས་རྗེས་འཇུག་བྱེད།",
     "Explore Collections": "ཕྱོགས་བསྒྲིགས་འཚོལ་ཞིབ།",
