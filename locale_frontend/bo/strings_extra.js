@@ -84,7 +84,7 @@ define(
     "Source Language": "མ་ཕྱིའི་སྐད་ཡིག",
     "Source Layout": "མ་ཕྱིའི་རྣམ་པ།",
     "Reset to Sheet Default": "རྨང་གཞིའི་ཤོག་ངོས་ལྟར་སྒྲིག",
-    "Insert": "ནང་འཇུག་བྱོས།",
+    "Insert": "ནང་འཇུག",
     "Source": "མ་ཕྱི།",
     "Parasha": "Parasha",
     "Comment": "མཆན།",
