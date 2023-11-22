@@ -29,7 +29,7 @@ define(
     "Torah Tab": "ཐོ་རཱའི་ཐེབས།",
     "Get the Mobile App": "འདིའི་ཁ་པར་མཉེན་ཆས།",
     "Access the Jewish library anywhere and anytime with the": "སྤྱད་དེ་ས་གནས་དང་དུས་ཚོད་གང་ཡིན་གྱི་ཁྱད་པར་མེད་པར་ནང་བསྟན་དཔེ་མཛོད་འདི་འཚོལ་སྔོག",
-    "Sefaria mobile app.": "Sefaria ཡི་ཁ་པར་མཉེན་ཆས།",
+    "Sefaria mobile app.": "དཔེ་ཆ་དྲ་ཚིགས་ཀྱི་ཁ་པར་མཉེན་ཆས།",
     "Stay Connected": "འབྲེལ་བ་རྒྱུན་འཁྱོངས་བྱོས།",
     "Get updates on new texts, learning resources, features, and more.": "དཔེ་དེབ་གསར་པ་ཁག་དང་སློབ་གཉེར་གྱི་རྒྱུ་ཆ། ཁྱད་ཆོས་གཞན་སོགས་ཁ་སྣོན་བྱས་པ་རྣམས་ལོངས།",
     "Support Sefaria": "Sefaria ལ་རྒྱབ་སྐྱོར་བྱེད་རོགས།",
