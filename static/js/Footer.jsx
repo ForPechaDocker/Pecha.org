@@ -44,25 +44,25 @@ class Footer extends Component {
                 <Link href="/about" en="What is Pecha?" he="དཔེ་ཆ་ཟེར་བ་དེ་ཅི་ཞིག་ཡིན་ནམ།" />
                 <Link href="/help" en="Help" he="རམ་འདེགས།" />
                 <Link href="/team" en="Team" he="ཚོགས་ཆུང་།" />
-                <Link href="/testimonials" en="Testimonials" he="དཔེ་ཆའི་དྲིན་གཟོའི་ཡིག་ཆ།" />
-                <Link href="/metrics" en="Metrics" he="རྩིས་གཞི།" />
-                <Link href="/annualreport/2022" en="Annual Report" he='ལོ་རེའི་ལས་བསྡོམས།' />
+                {/*<Link href="/testimonials" en="Testimonials" he="དཔེ་ཆའི་དྲིན་གཟོའི་ཡིག་ཆ།" />*/}
+                {/*<Link href="/metrics" en="Metrics" he="རྩིས་གཞི།" />*/}
+                {/*<Link href="/annualreport/2022" en="Annual Report" he='ལོ་རེའི་ལས་བསྡོམས།' />*/}
                 <Link href="/terms" en="Terms of Use" he="བཀོལ་སྤྱོད་ཀྱི་སྒྲིག་གཞི་ཁག" />
                 <Link href="/privacy-policy" en="Privacy Policy" he="སྒེར་དོན་གསང་རྒྱ།" />
             </Section>
 
             <Section en="Tools" he="ལག་ཆ་རྣམས།">
-                <Link href="/educators" en="Teach with Pecha" he="དཔེ་ཆ་བརྒྱུད་ནས་སློབ་ཁྲིད་བྱེད།" />
-                <Link href="/calendars" en="Learning Schedules" he="སློབ་གཉེར་བྱེད་པའི་དུས་བཅད་རྣམས།" />
+                {/*<Link href="/educators" en="Teach with Pecha" he="དཔེ་ཆ་བརྒྱུད་ནས་སློབ་ཁྲིད་བྱེད།" />*/}
+                {/*<Link href="/calendars" en="Learning Schedules" he="སློབ་གཉེར་བྱེད་པའི་དུས་བཅད་རྣམས།" />*/}
                 <Link href="/sheets" en="Source Sheets" he="མ་ཕྱིའི་ཤོག་ངོས།" />
-                <Link href="/visualizations" en="Visualizations" he="མཐོང་ཐུབ་པའི་རྣམ་པ་ཅན།" />
+                {/*<Link href="/visualizations" en="Visualizations" he="མཐོང་ཐུབ་པའི་རྣམ་པ་ཅན།" />*/}
                 <Link href="/mobile" en="Mobile Apps" he="ཁ་པར་མཉེན་ཆས་ཁག" />
                 {/*<Link href="/daf-yomi" en="Daf Yomi" he="דף יומי" />*/}
                 {/*<Link href="/torah-tab" en="Torah Tab" he="תורה טאב" />*/}
                 <Link href="/people" en="Authors" he="རྩོམ་པ་པོ་རྣམས།" />
                 <Link href="/collections" en="Collections" he="ཕྱོགས་བསྒྲིགས་ཁག" />
                 <Link href="/updates" en="New Additions" he="དཔར་གཞི་གསར་པ་རྣམས།" />
-                <Link href="/remote-learning" en="Remote Learning" he="དྲ་ལམ་ནས་སློབ་གཉེར་བྱེད་པ།" />
+                {/*<Link href="/remote-learning" en="Remote Learning" he="དྲ་ལམ་ནས་སློབ་གཉེར་བྱེད་པ།" />*/}
             </Section>
 
             <Section en="Developers" he="གསར་བསྐྲུན་མཁན།">
@@ -77,7 +77,7 @@ class Footer extends Component {
                 <Link href="/ways-to-give" en="Ways to Give" he="འབུལ་ཐབས།" />*/}
                 <Link href="/supporters" en="Supporters" he="རྒྱབ་སྐྱོར་བ་རྣམས།" />
                 <Link href="/jobs" en="Jobs" he="ལས་རིགས།" />
-                <Link href="https://store.sefaria.org" en="Shop" he="ཚོང་ཁང་" />
+                {/*<Link href="https://store.sefaria.org" en="Shop" he="ཚོང་ཁང་" />*/}
             </Section>
 
           <div className="section last connect">
