@@ -96,7 +96,7 @@ define(
     "Organizations, communities and individuals around the world curate and share collections of sheets for you to explore.": "འཛམ་གླིང་གི་ཕྱོགས་སོ་སོའི་སྒྲིག་འཛུགས་ཁག་དང་སྤྱི་ཚོགས། མི་སྒེར་བ་བཅས་ཀྱིས་རང་རང་གི་ས་ནས་ཁྱོད་ཀྱི་བལྟ་ཀློག་གི་ཆེད་དུ་དཔེ་ཚོགས་ཕྱོགས་བསྒྲིགས་དང་མཉམ་སྤྱོད་བཅས་བྱེད་ཐུབ།",
     "Recently Published": "ཉེ་ཆར་གསར་སྤེལ་བྱས་པ།",
     "Make a Sheet": "ཤོག་ངོས་ཤིག་བཟོས།",
-    "Combine sources from our library with your own comments, questions, images, and videos.": "ང་ཚོའི་དཔེ་མཛོད་ནང་གི་རྒྱུ་ཆ་རྣམས་ཁྱེད་རང་ཉིད་ཀྱི་མཆན་འགྲེལ་དང་དོགས་འདྲི། འདྲ་པར། ་བརྙན་དང་བཅས་ལ་མཉམ་སྡེབ་བྱོས།",
+    "Combine sources from our library with your own comments, questions, images, and videos.": "ང་ཚོའི་དཔེ་མཛོད་ནང་གི་མ་ཕྱི་རྣམས་ཁྱེད་རང་ཉིད་ཀྱི་མཆན་འགྲེལ་དང་དོགས་འདྲི། འདྲ་པར། བརྙན་དང་བཅས་ལ་ཟླ་སྒྲིལ་བྱོས།",
     "A Living Library of Torah": "ནང་ཆོས་ཀྱི་དཔེ་མཛོད་ཅིག",
     "Results for": "འདིའི་གྲུབ་འབྲས་ཁག",
     "Results": "གྲུབ་འབྲས་རྣམས།",
