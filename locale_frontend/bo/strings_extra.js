@@ -35,7 +35,7 @@ define(
     "Blog": "Blog",
     "Instagram": "Instagram",
     "Email": "གློག་འཕྲིན།",
-    "Connect": "འབྲེལ་གཏུགས་བྱ་ཚུལ།",
+    "Connect": "འབྲེལ་གཏུགས་བྱ་ཡུལ།",
     "Register": "ཐོ་འགོད།",
     "login": "ནང་འཛུལ།",
     "logout": "ཕྱིར་ཐོན།",
