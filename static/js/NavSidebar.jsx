@@ -632,8 +632,8 @@ const AboutCollections = ({hideTitle}) => (
     {hideTitle ? null :
     <ModuleTitle h1={true}>About Collections</ModuleTitle>}
     <InterfaceText>
-        <EnglishText>Collections are user generated bundles of sheets which can be used privately, shared with friends, or made public on Sefaria.</EnglishText>
-        <HebrewText>אסופות הן מקבצים של דפי מקורות שנוצרו על ידי משתמשי האתר. הן ניתנות לשימוש פרטי, לצורך שיתוף עם אחרים או לשימוש ציבורי באתר ספריא.</HebrewText>
+        <EnglishText>Collections are user generated bundles of sheets which can be used privately, shared with friends, or made public on Pecha.</EnglishText>
+        <HebrewText>ཕྱོགས་བསྒྲིགས་རྣམས་ནི་དཔེ་ཆ་ཚིགས་ནང་སྤྱོད་མཁན་རྣམས་ཀྱིས་གསར་བཟོ་བྱས་པའི་ཤོག་ངོས་ཁག་སྟེ་སྒེར་སྤྱོད་ཁོ་ན་བྱེད་པ་དང་ཡང་ན་གྲོགས་པོ་གཞན་ལ་བརྒྱུད་སྐུར་ཡང་ན་སྤྱི་སྤྱོད་ཅི་རིགས་བྱ་ཐུབ་པའི་དཔེ་ཚོགས་རྣམས་ལ་གོ།</HebrewText>
     </InterfaceText>
     {hideTitle ? null :
     <div>
