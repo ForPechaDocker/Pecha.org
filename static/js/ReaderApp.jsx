@@ -103,7 +103,7 @@ class ReaderApp extends Component {
     }).map(panel => this.makePanelState(panel));
 
     const defaultVersions   = Sefaria.util.clone(props.initialDefaultVersions) || {};
-    const layoutOrientation = (props.interfaceLang == "hebrew") ? "rtl" : "ltr";
+    const layoutOrientation = (props.interfaceLang == "hebrew") ? "ltr" : "ltr";
 
     this.state = {
       panels: panels,
@@ -1868,7 +1868,7 @@ toggleSignUpModal(modalContentKind = SignUpModalKind.Default) {
       let contentSpans = container.querySelectorAll(".contentSpan");
       if (closestReaderPanel && !closestReaderPanel.classList.contains('continuous')) {
         contentSpans.forEach(el => {
-            el.outerHTML = `<div dir="${Sefaria.hebrew.isHebrew(el.innerText) ? 'rtl' : 'ltr'}">${el.innerHTML}</div>`;
+            el.outerHTML = `<div dir="${Sefaria.hebrew.isHebrew(el.innerText) ? 'ltr' : 'ltr'}">${el.innerHTML}</div>`;
         })
       }
 

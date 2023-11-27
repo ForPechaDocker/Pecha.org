@@ -3329,7 +3329,7 @@ display: none;
 .hebrew .textTableOfContents,
 .english .noLangToggleInHebrew .textTableOfContents,
 .bilingual .noLangToggleInHebrew .textTableOfContents{
-  text-align: right;
+  text-align: left;
 }
 .english .noLangToggleInHebrew .textTableOfContents,
 .bilingual .noLangToggleInHebrew .textTableOfContents{
