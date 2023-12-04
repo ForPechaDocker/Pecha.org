@@ -305,7 +305,7 @@ class VersionBlock extends Component {
                 <div className={classNames(this.makeAttrClassNames({"versionDigitizedBySefaria": 1, "versionDetailsElement": 1}, "digitizedBySefaria"))}>
                   <span className="versionDetailsLabel">
                     {`${Sefaria._("Digitization")}: `}
-                  < /span>
+                  </span>
                   <a className="versionDetailsLink" href="/digitized-by-sefaria" target="_blank">
                     {Sefaria._("Sefaria")}
                   </a>
