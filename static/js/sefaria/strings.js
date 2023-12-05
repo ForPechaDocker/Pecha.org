@@ -106,7 +106,7 @@ const Strings = {
 
     // Community Page
     "From the Community: Today on Sefaria": "དེ་རིང་དཔེ་ཆ་དྲ་ཆིགས་ནང་གི་ཚོགས་སྡེ་དེའི་དེ་རིང་གི་རྣམ་པ།",
-    "Today on Sefaria": "དེ་རིང་དཔེ་ཆ་དྲ་ཆིགས་ཐོག",
+    "Today on Pecha": "དེ་རིང་དཔེ་ཆ་དྲ་ཆིགས་ཐོག",
     "Who to Follow": "སུས་རྗེས་འཇུག་བྱེད།",
     "Explore Collections": "ཕྱོགས་བསྒྲིགས་འཚོལ་ཞིབ།",
     "Organizations, communities and individuals around the world curate and share collections of sheets for you to explore.": "འཛམ་གླིང་གི་ཕྱོགས་སོ་སོའི་སྒྲིག་འཛུགས་ཁག་དང་སྤྱི་ཚོགས། མི་སྒེར་བ་བཅས་ཀྱིས་རང་རང་གི་ས་ནས་ཁྱོད་ཀྱི་བལྟ་ཀློག་གི་ཆེད་དུ་དཔེ་ཚོགས་ཕྱོགས་བསྒྲིགས་དང་མཉམ་སྤྱོད་བཅས་བྱེད་ཐུབ།",
