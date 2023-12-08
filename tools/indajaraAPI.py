@@ -13,6 +13,8 @@ BASEPATH = os.path.dirname(os.path.abspath(__file__))   # path to `Pecha.org/too
 #baseURL = "https://pecha.org/"
 baseURL = "http://127.0.0.1:8000/"
 
+baseURL = "https://pecha.org/"
+#baseURL = "http://127.0.0.1:8000/"
 #region APIs
 def get_term(termSTR):
     """
@@ -64,13 +66,14 @@ def post_term(termEnSTR, termHeSTR):
         response = urllib.request.urlopen(req)
         res = response.read().decode('utf-8')
         print(res)
-        if "error" in res[0] and "already exists." not in res[0]["error"]:
-            return False
-        return True
+        # term conflict
+        if "error" in res and "A Term with the title" in res and "in it already exists" in res:
+            return {"status": False, "term_conflict": res}
+        return {"status": True}
     except HTTPError as e:
         print('Error code: ', e.code)
         print(e.read())
-        return False
+        return {"status": False, "error": e.read()}
 
 
 def get_category(pathSTR):
@@ -85,7 +88,7 @@ def get_category(pathSTR):
         response = urllib.request.urlopen(req)
         res = response.read().decode('utf-8')
         print(res)
-        if "error" not in res[0]:
+        if "error" not in res:
             return True
         elif "already exists" in res["error"]:
             return True
@@ -125,9 +128,9 @@ def post_category(pathLIST):
         response = urllib.request.urlopen(req)
         res = response.read().decode('utf-8')
         print(res)
-        if "error" not in res[0]:
+        if "error" not in res:
             return True
-        elif "already exists" in res["error"]:
+        elif "already exists" in res:
             return True
         return False
     except HTTPError as e:
@@ -189,7 +192,7 @@ def post_index(indexSTR, pathLIST, titleLIST):
         response = urllib.request.urlopen(req)
         res = response.read().decode('utf-8')
         print(res)
-        if "error" in res[0] and "already exists." not in res[0]["error"]:
+        if "error" in res and "already exists." not in res:
             return False
         return True
     except HTTPError as e:
@@ -247,7 +250,7 @@ def post_text(indexSTR, textDICT):
         response = urllib.request.urlopen(req)
         res = response.read().decode('utf-8')
         print(res)
-        if "error" not in res[0]:
+        if "error" not in res:
             return True
         return False
     except HTTPError as e:
@@ -314,7 +317,7 @@ def post_link(refLIST, typeSTR):
         response = urllib.request.urlopen(req)
         res = response.read().decode('utf-8')
         print(res)
-        if "error" not in res[0]:
+        if "error" not in res:
             return True
         elif "Link already exists" in res["error"]:
             return True
@@ -411,7 +414,7 @@ def post_webpage(webpage):
         response = urllib.request.urlopen(req)
         res = response.read().decode('utf-8')
         print(res)
-        if res["status"] == "saved":
+        if "saved" in res:
             return True
         else:
             return False
@@ -619,7 +622,11 @@ def add_by_file(fileSTR):
     # 先新增每一個路徑
     print("==post_category==")
     for i in range(len(payload["categoryEn"])):
-        if not post_term(payload["categoryEn"][i][-1], payload["categoryHe"][i][-1]):
+        response = post_term(payload["categoryEn"][i][-1], payload["categoryHe"][i][-1])
+        if not response["status"]:
+            if "term_conflict" in response:
+                with open("{}/data/texts/conflict.txt".format(BASEPATH), mode='a', encoding='utf-8') as f:
+                    f.write(fileSTR+": "+response["term_conflict"]+"\n")
             success = False
         if not post_category(payload["categoryEn"][i]):
             success = False
@@ -861,6 +868,6 @@ def main():
 
 
 if __name__ == "__main__":
-    categorizeData()
+    #categorizeData()
 
     main()
