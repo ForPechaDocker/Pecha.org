@@ -263,23 +263,23 @@ Put your JSON files (file name is arbitrary) into `/data/sheets` and execute ind
 A sample file:
 
     {
-        "title": "Sheet Title",
-        "sources": [
-            {
-                "ref": "[The Title of Texts] 2:1",
-                "heRef": "[The Title of Texts] 2:1",
-                "text": {
-                    "en": "<p>Notes we want to add for the ref above</p>",
-                    "he": "<p>Notes we want to add for the heRef above</p>"
-                },
-            },
-            {
-                "ref": "[The Title of Texts] 2:1",
-                "heRef": "[The Title of Texts] 2:1",
-                "text": {
-                    "en": "<p>Notes we want to add for the ref above</p>",
-                    "he": "<p>Notes we want to add for the heRef above</p>"
-                },
-            },
-        ]
-    }
+    "title": "Sheet Title",
+    "sheet": [
+        {
+            "ref": "[The Title of Texts] 2:1",
+            "heRef": "[The Title of Texts] 2:1",
+            "text": {
+                "en": "<p>Notes we want to add for the ref above</p>",
+                "he": "<p>Notes we want to add for the heRef above</p>"
+            }
+        },
+        {
+            "ref": "[The Title of Texts] 2:1",
+            "heRef": "[The Title of Texts] 2:1",
+            "text": {
+                "en": "<p>Notes we want to add for the ref above</p>",
+                "he": "<p>Notes we want to add for the heRef above</p>"
+            }
+        }
+    ]
+}
