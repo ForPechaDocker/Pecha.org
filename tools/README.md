@@ -1,5 +1,5 @@
 
-## Indajara API for Pecha.org 
+## API for Pecha.org 
 
 Using indajaraAPI.py upload data to Pecha.org.
 
