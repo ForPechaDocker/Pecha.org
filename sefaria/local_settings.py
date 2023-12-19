@@ -16,7 +16,7 @@ import sefaria.system.logging as sefaria_logging
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/sandup/repos/db.sqlite', # Path to where you would like the database to be created including a file name, or path to an existing database file if using sqlite3.
+        'NAME': '/path/to/Sefaria-Project/db.sqlite', # Path to where you would like the database to be created including a file name, or path to an existing database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -38,11 +38,14 @@ DATABASES = {
 
 # Map domain to an interface language that the domain should be pinned to.
 # Leave as {} to prevent language pinning, in which case one domain can serve either Hebrew or English
-DOMAIN_LANGUAGES = {}
+DOMAIN_LANGUAGES = {
+    "http://hebrew.example.org": "hebrew",
+    "http://english.example.org": "english",
+}
 
 
 ################ These are things you can change! ###########################################################################
-SILENCED_SYSTEM_CHECKS = ['captcha.recaptcha_test_key_error']
+#SILENCED_SYSTEM_CHECKS = ['captcha.recaptcha_test_key_error']
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1","0.0.0.0"]
 
