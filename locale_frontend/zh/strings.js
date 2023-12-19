@@ -13,7 +13,7 @@ define(
     "Notifcations": "通知",
     "New Additions to the Sefaria Library": "Sefaria 圖書館新增內容",
     "My Notes on Sefaria": "我的筆記",
-    "Texts & Source Sheets from Torah, Talmud and Sefaria's library of Jewish sources.": "《Torah》、《Talmud》和《Sefaria 猶太圖書館》的「文本」和「貼文」。",
+    "Texts & Source Sheets from Torah, Talmud and Sefaria's library of Jewish sources.": "《Torah》、《Talmud》和《Sefaria 猶太圖書館》的「文本」和「工作貼文」。",
     "Moderator Tools": "版主工具",
     " with ": "隨著",
     "Connections": "連線",
