@@ -140,7 +140,7 @@ define(
     "was added to": "已新增至",
     "View sheet": "觀看工作貼文",
     "Please select a source sheet.": "請選擇一則工作貼文",
-    "New Source Sheet Name:": "新貼文名稱：",
+    "New Source Sheet Name:": "新工作貼文名稱：",
     "Source Sheet by": "貼文來自",
     "Created with": "創建",
     " hasn't shared any sheets yet.": "尚未分享任何貼文",
