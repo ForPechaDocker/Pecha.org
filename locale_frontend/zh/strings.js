@@ -287,7 +287,7 @@ define(
     "Collection Image": "圖片收藏",
     "Upload Image": "上傳圖片",
     "Recommended size: 350px x 350px or larger": "建議尺寸：350 像素 x 350 像素或更大",
-    "Default Sheet Header": "預設貼文標題",
+    "Default Sheet Header": "預設工作貼文標題",
     "Recommended size: 1000px width to fill sheet, smaller images align right": "建議尺寸：1000 像素填滿頁面寬度，較小的影像向右對齊。",
     "List on Sefaria": "Sefaria 上的列表",
     "Your collection will appear on the public collections page where others can find it.": "您的收藏將顯示在公開收藏頁面上，其他人可以在其中找到它。",
