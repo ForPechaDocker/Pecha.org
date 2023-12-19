@@ -226,7 +226,7 @@ define(
     "Cancel": "取消",
     "Send a message to ": "傳送訊息至",
     "Following": "關注中",
-    "Followers": "追蹤者",
+    "Followers": "關注者",
     "following": "追蹤",
     "followers": "追蹤者",
     "Recent": "重置",
