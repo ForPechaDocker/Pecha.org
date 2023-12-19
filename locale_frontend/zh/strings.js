@@ -251,7 +251,7 @@ define(
     "Editor": "編輯者",
     "Editors": "編輯者",
     "There are no sheets in this collection yet.": "此收藏中還沒有工作貼文。",
-    "You can add sheets to this collection on your profile.": "您可以在您的個人資料上將貼文新增至此收藏。",
+    "You can add sheets to this collection on your profile.": "您可以在您的個人資料上將工作貼文新增至此收藏。",
     "Open Profile": "開啟資料",
     "Search the full text of this collection for": "搜尋此收藏的全文",
     "No sheets matching ": "沒有匹配的貼文",
