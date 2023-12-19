@@ -197,7 +197,7 @@ define(
     "Please add a description to publish your sheet.": "請新增描述以發布您的工作貼文。",
     "The summary description is limited to 280 characters.": "摘要描述限制最多 280 個字。",
     "People with this link can": "知道此連結的人可以",
-    "Publish your sheet on Sefaria for others to discover.": "在 Sefaria 上發布您的貼文以供其他人探索。",
+    "Publish your sheet on Sefaria for others to discover.": "在 Sefaria 上發布您的工作貼文以供其他人探索。",
     "Search": "搜尋",
     "Search Dictionary": "搜尋字典",
     "Search for": "搜尋",
