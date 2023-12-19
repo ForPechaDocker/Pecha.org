@@ -272,7 +272,7 @@ define(
     "Are you sure you want to leave this collection?": "您確定要離開此收藏嗎？",
     "Are you sure you want to remove this person from this collection?": "您確定要將此人從該收藏中刪除嗎？",
     "Are you sure you want to remove this invitation?": "您確定您要移除這個邀請嗎？",
-    "There was an error pinning your sheet.": "釘選您貼文時出現錯誤。",
+    "There was an error pinning your sheet.": "釘選您工作貼文時出現錯誤。",
     "There are no public collections yet.": "還沒有公開的收藏。",
     "You can use collections to organize your sheets or public sheets you like. Collections can be shared privately or made public on Sefaria.": "您可以使用收藏來組織您的貼文或您喜歡的公開貼文。收藏可以私下分享或在 Sefaria 上公開。",
     " hasn't shared any collections yet.": "尚未分享任何收藏。",
