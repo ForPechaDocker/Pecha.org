@@ -475,7 +475,7 @@ define(
     "Tools": "工具",
     "Share Link": "分享連結",
     "More Options": "更多選項",
-    "Follow": "追蹤關注",
+    "Follow": "關注",
     "Unfollow": "取消追蹤",
     "Follow Back": "回追蹤",
     "Select Format": "選擇格式",
