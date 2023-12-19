@@ -227,7 +227,7 @@ define(
     "Send a message to ": "傳送訊息至",
     "Following": "關注中",
     "Followers": "關注者",
-    "following": "追蹤",
+    "following": "關注中",
     "followers": "追蹤者",
     "Recent": "重置",
     "Unlisted": "未列出的",
