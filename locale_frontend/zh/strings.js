@@ -41,7 +41,7 @@ define(
     "Create with Sefaria": "用 Sefaria 來建立",
     "Mobile Apps": "手機 Apps",
     "Browse the Library": "瀏覽圖書館",
-    "Weekly Torah Portion": "每週 Torah 內容",
+    "Weekly Torah Portion": "每週的 Torah 內容",
     "All Learning Schedules": "所有的學習計畫",
     "Sponsor A Day of Learning": "贊助一日的學習",
     "With your help, we can add more texts and translations to the library, develop new tools for learning, and keep Sefaria accessible for Torah study anytime, anywhere.": "在您的幫助下，我們可以為圖書館添加更多文字和翻譯，開發新的學習工具，並讓 Sefaria 可持續提供隨時隨地學習 Torah 的環境。",
