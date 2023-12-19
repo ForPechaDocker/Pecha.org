@@ -476,7 +476,7 @@ define(
     "Share Link": "分享連結",
     "More Options": "更多選項",
     "Follow": "關注",
-    "Unfollow": "取消追蹤",
+    "Unfollow": "取消關注",
     "Follow Back": "回追蹤",
     "Select Format": "選擇格式",
     "Text (with Tags)": "文本（含標記）",
