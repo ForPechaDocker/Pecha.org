@@ -104,7 +104,7 @@ define(
     "Exact Matches Only": "精準比對",
     "Search Texts": "搜尋文本",
     "Search in this text": "搜尋文本內容",
-    "Sheet": "貼文",
+    "Sheet": "工作貼文",
     "About this Sheet": "關於這則貼文",
     "Tags": "標記",
     "Search for a text...": "搜尋文字",
