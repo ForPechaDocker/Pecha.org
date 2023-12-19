@@ -188,7 +188,7 @@ define(
     "on Sefaria and visible to others through search and topics.": "在 Sefaria 上，其他人可以透過搜尋和主題看到。",
     "List your sheet on Sefaria for others to discover.": "在 Sefaria 上顯示您的工作貼文供他人探索。",
     "Summary": "摘要",
-    "Write a short description of your sheet...": "寫下您貼文的簡短描述。",
+    "Write a short description of your sheet...": "寫下您工作貼文的簡短描述。",
     "Add a topic...": "新增一個主題",
     "Publish": "發布",
     "Unpublish": "取消發布",
