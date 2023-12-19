@@ -94,7 +94,7 @@ define(
     "Who to Follow": "關注誰",
     "Explore Collections": "探索收藏",
     "Organizations, communities and individuals around the world curate and share collections of sheets for you to explore.": "世界各地的組織、社群和個人都會策劃和共享各自工作貼文的收藏供您探索。",
-    "Recently Published": "最新發佈",
+    "Recently Published": "最新發布",
     "Make a Sheet": "建立工作貼文",
     "Combine sources from our library with your own comments, questions, images, and videos.": "將我們圖書館中的來源資料與您自己的評論、問題、圖像和影片結合。",
     "A Living Library of Torah": "Torah 即時互動圖書館",
