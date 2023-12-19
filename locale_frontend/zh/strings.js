@@ -5,7 +5,7 @@ define(
     "Community": "社群",
     "Donate": "捐助",
     "Sefaria Notifications": "Sefaria 通知",
-    "Sefaria: a Living Library of Jewish Texts Online": "線上猶太文本即時互動圖書館",
+    "Sefaria: a Living Library of Jewish Texts Online": "線上猶太文本的活圖書館",
     "Recently Viewed": "最近瀏覽過",
     "The Sefaria Library": "Sefaria 圖書館",
     "Sefaria Search": "Sefaria 搜尋",
