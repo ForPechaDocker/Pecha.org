@@ -575,7 +575,7 @@ def add_by_file(fileSTR):
         "textHe": [],
     }
     for lang in data:
-        if lang == "中文":
+        if lang == "source":
             for lv1 in data[lang]:
                 payload["categoryEn"].append([lv1])
                 for lv2 in data[lang][lv1]:
@@ -596,7 +596,7 @@ def add_by_file(fileSTR):
                             elif thisType == list:  # 已經是內文了
                                 payload["bookKey"] = lv3
                                 payload["textEn"].append(data[lang][lv1][lv2][lv3])
-        elif lang == "བོད་ཡིག":  # 藏文
+        elif lang == "target":  # 藏文
             for lv1 in data[lang]:
                 payload["categoryHe"].append([lv1])
                 for lv2 in data[lang][lv1]:
