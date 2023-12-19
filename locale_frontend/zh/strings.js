@@ -300,7 +300,7 @@ define(
     "Unfortunately an error occurred deleting your collection.": "很遺憾，刪除您的收藏時發生錯誤。",
     "Saved": "已儲存",
     "Notifications": "通知",
-    "Texts and sheets that you read will be available for you to see here.": "您可以在此處查看您閱讀的文字和貼文。",
+    "Texts and sheets that you read will be available for you to see here.": "您可以在此處查看您閱讀的文字和工作貼文。",
     "Click the bookmark icon on texts or sheets to save them here.": "點擊文字或貼文上的書籤圖示可將它們保存在此。",
     "New Text": "新文本",
     "sent you a message": "發了一則訊息給你",
