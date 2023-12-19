@@ -758,7 +758,7 @@ const ToolsList = ({ setConnectionsMode, toggleSignUpModal, openComparePanel, co
     <div className="toolButtonsList">
       <ToolsButton en="Add to Sheet" he="ཤོག་ངོས་ནང་སྣོན།" image="sheetsplus.svg" onClick={() => !Sefaria._uid ? toggleSignUpModal(SignUpModalKind.AddToSheet) : setConnectionsMode("Add To Sheet", { "addSource": "mainPanel" })} />
       <ToolsButton en="Dictionaries" he="ཚིག་མཛོད།" image="dictionaries.svg" urlConnectionsMode="Lexicon" onClick={() => setConnectionsMode("Lexicon")} />
-      {openComparePanel ? <ToolsButton en="Compare Text" he="טקסט להשוואה" image="compare-panel.svg" onClick={openComparePanel} /> : null}
+      {openComparePanel ? <ToolsButton en="Compare Text" he="དཔེ་ཆ་ཕན་ཚུལ་བསྡུར།" image="compare-panel.svg" onClick={openComparePanel} /> : null}
       <ToolsButton en="Notes" he="མཆན།" image="notes.svg" alwaysShow={true} count={counts["notes"]} urlConnectionsMode="Notes" onClick={() => !Sefaria._uid ? toggleSignUpModal(SignUpModalKind.Notes) : setConnectionsMode("Notes")} />
       {masterPanelMode !== "Sheet" ? <ToolsButton en="Share" he="མཉམ་སྤྱོད།" image="share.svg" onClick={() => setConnectionsMode("Share")} /> : null}
       <ToolsButton en="Feedback" he="བསམ་ཚུལ།" image="feedback.svg" onClick={() => setConnectionsMode("Feedback")} />
@@ -925,7 +925,7 @@ const SheetToolsList = ({ toggleSignUpModal, masterPanelSheetId, setConnectionsM
   return (<div>
     <ToolsButton en={copyText.en} he={copyText.he} secondaryEn={copyText.secondaryEn} secondaryHe={copyText.secondaryHe} image="copy.png" greyColor={!!copyText.secondaryEn || copyText.greyColor} onClick={() => copySheet()} />
     {/* <ToolsButton en="Add to Collection" he="תרגומים" image="add-to-collection.svg" onClick={() => toggleCollectionsModal()} /> */}
-    <ToolsButton en="Print" he="הדפסה" image="print.svg" onClick={() => window.print()} />
+    <ToolsButton en="Print" he="Print" image="print.svg" onClick={() => window.print()} />
     <ToolsButton en={googleDriveText.en} he={googleDriveText.he} greyColor={!!googleDriveText.secondaryEn || googleDriveText.greyColor} secondaryEn={googleDriveText.secondaryEn} secondaryHe={googleDriveText.secondaryHe} image="googledrive.svg" onClick={() => googleDriveExport()} />
     {
       Sefaria._uses_new_editor && Sefaria._uid && (
@@ -942,10 +942,10 @@ class SheetNodeConnectionTools extends Component {
   render() {
     return (<div className="toolButtonsList">
       {this.props.multiPanel ?
-        <ToolsButton en="Other Text" he="טקסט נוסף" icon="search" onClick={this.props.openComparePanel} />
+        <ToolsButton en="Other Text" he="དཔེ་ཆ་གཞན།" icon="search" onClick={this.props.openComparePanel} />
         : null}
-      <ToolsButton en="Sheets" he="דפי מקורות" image="sheet.svg" urlConnectionsMode="Sheets" count={this.props.sheetsCount} onClick={() => this.props.setConnectionsMode("Sheets")} />
-      <ToolsButton en="Feedback" he="משוב" icon="comment" onClick={() => this.props.setConnectionsMode("Feedback")} />
+      <ToolsButton en="Sheets" he="ཤོག་ངོས།" image="sheet.svg" urlConnectionsMode="Sheets" count={this.props.sheetsCount} onClick={() => this.props.setConnectionsMode("Sheets")} />
+      <ToolsButton en="Feedback" he="བསམ་ཚུལ།" icon="comment" onClick={() => this.props.setConnectionsMode("Feedback")} />
     </div>);
   }
 }
