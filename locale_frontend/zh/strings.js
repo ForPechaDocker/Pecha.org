@@ -418,7 +418,7 @@ define(
     " at ": "在",
     "on Sefaria": "在 Sefaira",
     "Thanks for Trying the New Editor!": "感謝您嘗試使用新編輯器！",
-    "Go to your profile to create a new sheet, or edit an existing sheet, to try out the new experience. After you’ve had a chance to try it out, we would love to hear your feedback. You can reach us at": "前往您的個人資料建立新貼文或編輯現有踢文，以嘗試新體驗。在您體驗後，我們很樂意聽到您的回饋。您可以透過以下方式聯絡我們",
+    "Go to your profile to create a new sheet, or edit an existing sheet, to try out the new experience. After you’ve had a chance to try it out, we would love to hear your feedback. You can reach us at": "前往您的個人資料建立新工作貼文或編輯現有貼文，以嘗試新體驗。在您體驗後，我們很樂意聽到您的回饋。您可以透過以下方式聯絡我們",
     "Back to Profile": "回到個人資料",
     "Go back to old version": "回到舊版本",
     "Request for Feedback": "請求回饋",
