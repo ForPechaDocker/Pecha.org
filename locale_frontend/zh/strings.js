@@ -97,7 +97,7 @@ define(
     "Recently Published": "最新發布",
     "Make a Sheet": "建立工作貼文",
     "Combine sources from our library with your own comments, questions, images, and videos.": "將我們圖書館中的來源資料與您自己的評論、問題、圖像和影片結合。",
-    "A Living Library of Torah": "Torah 即時互動圖書館",
+    "A Living Library of Torah": "Torah 活圖書館",
     "Results for": "... 的結果",
     "Results": "結果",
     "Options": "選項",
