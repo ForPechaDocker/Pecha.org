@@ -116,7 +116,7 @@ define(
     "Source Sheets": "工作貼文",
     "Sheets": "工作貼文",
     "Start a New Source Sheet": "開始一個新工作貼文",
-    "Untitled Source Sheet": "無標題的貼文",
+    "Untitled Source Sheet": "無標題的工作貼文",
     "Untitled": "無標題",
     "New Source Sheet": "新貼文",
     "Name New Sheet": "命名新貼文",
