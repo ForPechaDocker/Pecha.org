@@ -306,7 +306,7 @@ define(
     "sent you a message": "發了一則訊息給你",
     "published a new sheet": "發布了一個新工作貼文",
     "liked your sheet": "已按讚你的工作貼文",
-    "is now following you": "正在追蹤您",
+    "is now following you": "正在關注您",
     "Reply": "回覆",
     "added you to a collection": "已將您新增至收藏中",
     "Daily Learning": "每日學習",
