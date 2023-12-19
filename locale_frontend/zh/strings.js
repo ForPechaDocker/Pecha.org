@@ -146,7 +146,7 @@ define(
     " hasn't shared any sheets yet.": "尚未分享任何工作貼文",
     "Loading...": "載入...",
     "Saving...": "儲存...",
-    "Your Source Sheet has unsaved changes. Before leaving the page, click Save to keep your work.": "您的工作貼文有未儲存的變更。在離開頁面之前，按一下「儲存」以保留您的工作。",
+    "Your Source Sheet has unsaved changes. Before leaving the page, click Save to keep your work.": "您的工作貼文有未儲存的變更。在離開頁面之前，按一下「儲存」以保留您的變更。",
     "Your Source Sheet has unsaved changes. Please wait for the autosave to finish.": "您的貼文有未儲存的變更。請等待自動儲存完成。",
     "Are you sure you want to delete this sheet? There is no way to undo this action.": "您確定要刪除此貼文嗎？此動作無法回覆。",
     "Unfortunately an error has occurred. If you've recently edited text on this page, you may want to copy your recent work out of this page and click reload to ensure your work is properly saved.": "很遺憾，發生了一個錯誤。如果您最近在此頁面上編輯過文本，則可能需要將最近的工作複製到此頁面之外，然後單擊「重新載入」以確保正確地保存您工作。",
