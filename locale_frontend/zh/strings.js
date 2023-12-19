@@ -433,7 +433,7 @@ define(
     "You are currently testing the new Sefaria editor.": "您正使用新的 Sefaria 編輯器",
     "You are currently using the old Sefaria editor.": "您正使用舊的 Sefaria 編輯器",
     "Try the new version": "試試新版本",
-    "Your feedback is greatly appreciated. You can now edit your sheets again using the old source sheet editor. If you have any questions or additional feedback you can reach us at": "非常感謝您的回饋。現在您可以使用資源中的貼文編輯器再次編輯貼文。如果您有任何問題或其他回饋，可以透過以下方式聯絡我們：",
+    "Your feedback is greatly appreciated. You can now edit your sheets again using the old source sheet editor. If you have any questions or additional feedback you can reach us at": "非常感謝您的回饋。現在您可以使用資源中的工作貼文編輯器再次編輯貼文。如果您有任何問題或其他回饋，可以透過以下方式聯絡我們：",
     "Contents": "內容",
     "Download": "下載",
     "Table of Contents": "目錄",
