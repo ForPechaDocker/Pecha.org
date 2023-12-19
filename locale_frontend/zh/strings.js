@@ -406,7 +406,7 @@ define(
     "All Time": "整天",
     "Texts Read": "文本閱讀",
     "Sheets Read": "工作貼文閱讀",
-    "Sheets Created": "貼文已創建",
+    "Sheets Created": "工作貼文已創建",
     "Average Sefaria User": "Sefaria 平均使用者",
     "Etc": "Etc",
     "Please enter a valid email address.": "請輸入有效的電子郵件地址。",
