@@ -155,7 +155,7 @@ define(
     "Like": "讚/喜歡",
     "Unlike": "不喜歡",
     "No one has liked this sheet yet. Will you be the first?": "還沒有人對這則工作貼文點讚。你要當第一個嗎？",
-    "1 Person Likes This Sheet": "有一個人喜歡這則貼文",
+    "1 Person Likes This Sheet": "有一個人喜歡這則工作貼文",
     " People Like This Sheet": "喜歡這則貼文的人",
     "Tags Saved": "標記已儲存",
     "Assignments allow you to create a template that your students can fill out on their own.": "作業可讓您建立一個模板，您的學生可以自己填寫。",
