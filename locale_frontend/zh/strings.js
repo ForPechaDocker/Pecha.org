@@ -477,7 +477,7 @@ define(
     "More Options": "更多選項",
     "Follow": "關注",
     "Unfollow": "取消關注",
-    "Follow Back": "回追蹤",
+    "Follow Back": "關注對方",
     "Select Format": "選擇格式",
     "Text (with Tags)": "文本（含標記）",
     "Text (without Tags)": "文本（無標記）",
