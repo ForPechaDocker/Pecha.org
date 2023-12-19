@@ -257,7 +257,7 @@ define(
     "No sheets matching ": "沒有匹配的工作貼文",
     "Pinned Sheet - click to unpin": "已釘選的工作貼文 - 點選以取消釘選",
     "Pinned Sheet": "已釘選的工作貼文",
-    "Pin Sheet": "點選貼文",
+    "Pin Sheet": "點選工作貼文",
     "can invite & edit settings": "可以邀請及編輯設定參數",
     "can add & remove sheets": "可以新增及移除貼文",
     "Leave Collection": "退出收藏",
