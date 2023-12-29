@@ -133,9 +133,7 @@ class LikeFollowButtons extends Component {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = Sefaria.interfaceLang ==  "hebrew" ?
-          "https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v2.10&appId=206308089417064"
-          : "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=206308089417064";
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=206308089417064";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     }
@@ -166,7 +164,7 @@ class LikeFollowButtons extends Component {
   }
   render() {
     var fbURL = Sefaria.interfaceLang == "hebrew" ? "https://www.facebook.com/sefaria.org.il" : "https://www.facebook.com/sefaria.org";
-    var lang = Sefaria.interfaceLang.substring(0,2);
+    var lang = "en";
     return (<div id="socialButtons">
               <div id="facebookButton">
                 <div className="fb-like"
