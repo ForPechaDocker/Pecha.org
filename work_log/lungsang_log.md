@@ -10,8 +10,10 @@
 - Text upload api not working 
 
 ### Ways by which challanges were overcome
-- Tried several solution for mongorestore issue and still finding the solution 
+- Tried several solution for mongorestore issue and still finding the solution
+- Modified the json file of text sample to fit with script 
 
 ### Tomorrow
 - From 9:30am - 10:30am : Meet with Senge for sheet usage test
 - meeting with Gen NT and Thupten Rigzen and Samdup on how to move forward with project
+- new api version3 test
