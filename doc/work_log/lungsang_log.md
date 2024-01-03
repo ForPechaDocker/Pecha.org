@@ -24,7 +24,7 @@
 #### Date : 03/01/2024
 
 ### Worked on 
-- Discussed with Senge and Geshe Jampa Kalsang (Esukhia pecha.org user)(Test sheet and took feedback)
+##### Discussed with Senge and Geshe Jampa Kalsang (Esukhia pecha.org user)(Test sheet and took feedback)
 Following are this morning's feedback :
 - sheet not showing on tibetan language.
 - sheet without source not working. (Important)
@@ -41,7 +41,8 @@ In one month : learning schedule (sheet without source | also sometimes with sou
 - Test indrajalaapi script for text and commentaries
 - test mongodb vscode and mongodb compass
 
-- Evening Discussed with Thupten Rigzen on how to move forward with pecha.org
+##### Evening Discussed with Thupten Rigzen on how to move forward with pecha.org
+
 Following are points taken after meeting :
 
 - Create a new fork with all the sefaria update 
