@@ -53,7 +53,7 @@ Following are points taken after meeting :
 - Discussed upcoming work and added some new work in phases of pecha.org presentation
 
 Self work :
-- ent through the new apiV3 script (no documentation)
+- went through the new apiV3 script (there is no documentation)
 
 ### Challenges faced
 - none
