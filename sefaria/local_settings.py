@@ -44,6 +44,13 @@ DOMAIN_LANGUAGES = {}
 ################ These are things you can change! ###########################################################################
 SILENCED_SYSTEM_CHECKS = ['captcha.recaptcha_test_key_error']
 
+ALLOWED_HOSTS = [
+    "sefaria-docker.onrender.com",
+    "localhost",
+    "127.0.0.1",
+    "0.0.0.0"
+]
+
 ADMINS = (
     ('Your Name', 'you@example.com'),
 )
@@ -105,18 +112,12 @@ SITE_PACKAGE = "sites.sefaria"
 
 ################ These are things you DO NOT NEED to touch unless you know what you are doing. ##############################
 DEBUG = os.getenv("DEBUG", True)
-
-REMOTE_HOSTS = os.getenv('REMOTE_HOSTS', 'indrajala.com').replace(" ", "")
-
-LOCAL_HOSTS = [
+ALLOWED_HOSTS = [
+    'sefaria-docker.onrender.com',
     'localhost',
     '127.0.0.1',
-    "0.0.0.0",
     '[::1]'
 ]
-
-ALLOWED_HOSTS = REMOTE_HOSTS.split(',') + LOCAL_HOSTS
-
 OFFLINE = False
 DOWN_FOR_MAINTENANCE = False
 MAINTENANCE_MESSAGE = ""
