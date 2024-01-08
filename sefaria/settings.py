@@ -298,6 +298,27 @@ CACHES = {
 }
 
 
+
+# GLOBAL_INTERRUPTING_MESSAGE = {
+#     "name": "2023-06-16-help-center",
+#     "style":      "banner",  # "modal" or "banner"
+#     "repetition": 1,
+#     "is_fundraising": False,
+#     "condition":  {
+#         "returning_only": False,
+#         "english_only": False,
+#         "desktop_only": True,
+#         "debug": False,
+#     }
+# }
+
+
+GLOBAL_INTERRUPTING_MESSAGE = None
+
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","0.0.0.0","sefaria-docker.onrender.com","sefaria-web:80","sefaria-web.onrender.com"]
+
+
+
 # Grab environment specific settings from a file which
 # is left out of the repo.
 try:
@@ -307,7 +328,6 @@ try:
         from sefaria.local_settings import *
 except ImportError:
     from sefaria.local_settings_example import *
-
 
 # Listed after local settings are imported so CACHE can depend on DEBUG
 WEBPACK_LOADER = {
